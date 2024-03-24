@@ -1,0 +1,2048 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTAzLTIzIDIzOjQ2OjEwIixtb2RpZmllZD0iMjAyNC0w
+My0yNCAwNzowNTozNSIscmV2aXNpb249NzhdXWx6NAD-AQAAuDYAAPMUe1swXT17Ym1wPXB4dQBD
+IBAQBPDwLGZsYWdzPTAscGFuX3gIAMd5PTAsem9vbT04fSwxAP8CCiAEp38VF34XHjceFx4HEAcG
+AHp-Nx4Xfhd_p9EAGh4K0QAPTQAm9h8qEATwH0eAJ2A3QAdAhxAnEEcgV0AXMEcgFwAnUBcQR2AX
+MBdQFwAXYBcAJwAXDgAfQAwAMvAIMEdAF2AHQBcgRwAXAGdQF3AHMIcQd3AkAJ9HUCewB3AH8B7O
+AASgMy4zMjE0Mjg1NwYAHjbcAA8rAhIvMTEyAJTwAQK3MAefFQcwB54HMAceVx4GAA8EAB0jVx5A
+AG_eBzC38AKEAB7iBjewBx8VB3BHHgdwB14EAFpHHgewBwQAT3BHHkdoACoI7AASh1QAJzCHvABC
+Bx6HMGwAH4doAEoOFAAPaAAkQDcwNzA6AQOIAQ_gAREDfAAJBAAfN_QALA84AQEP5AACD2gAQAPe
+AA7sAA9wADAPLAEBHwdAAUIPxAAHD_AASQ9cAAkPKAI0VxAfFRAeAgA4PhAeAgA-MB4QHgBEHxCq
+ACESNzsAETdOABE3DAAhHjdqAAkaAA_GAAYPOAAMBhoAD54AHi-w8DIA--------------------
+-----------------------------------------x5QPTExfX0=
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTAzLTIzIDIzOjQ2OjEwIixzdG9yZWQ9IjIwMjQtMDMt
+MjMgMjM6NDY6MTAiXV1sejQABAAAAAMAAAAwbmls
+:: label.png
+b64$iVBORw0KGgoAAAANSUhEUgAAAeAAAAEOCAYAAABRmsRnAABbp0lEQVR4Ae2dK3QiTxPFi5wI
+JHIkcmTkyMiRSOTKlZGRkZGRK1cikUjkSORIJDISgfi_BJrUFLeqex6Q-_7WPYfDVE8-qqt77s_O
+9u_7A7lcLpfL5bqp7rwELpfL5XLdXvewdZnh3rOdV8zlcrn_JgW-D-4u45SxaHxXZnQZ35FZ78-K
+uJMmry3yX2bH9cJ-ZwDHFnC5XC7X3wff8LzMbuP3Epx91pNjNShfSy3hqwMYbSRM7nK5XC6XCzNR
+thlAxgDmE4TBDl_Xy_VytYFRFxnA_s8K5ZxQDwzgMGGY4E8siMvlcrluAx8JG9TWFuJdudNi3cnr
+97JNB3DYBCqsy_VyuVzfrS6QZ3p-tsdfG9AYwLNd7425XC6X6z_u4PXL7PjMoRbiLhD8Tn6k5m2A
+NgbmofY72r-vDn4LXS6Xy_W6re68BC6Xy_Vy3V731eQHraZjKrf75EGof2iT71bTMRHR_V0Q74v_
+Qx9rfb6WNkb2QTl23bP2Tu5D7hfVBb1Hz6l5xubs2hc9a_fL38v2WF2t3NrUpMtZp9xxucfYeXfN
+p8-ZW3XsWpcu9z-1Hsfuv3bX0HeE7uFQ3zxaR1Ms19TcUmsXyznVP635_t7h2P3UahjLJ-XOWHVv
+4-Nd_ktPHK2pPPQxqrYgsGDb5bBjwB-abFIvdQx2KZezy0cU_-hicE_NY-DWgNvlTNsA5log0cCg
+3d1Ug02tZyyPLn1T693ne0hZMxV0CK6aYXfdQx84WzCJnXEKSFPn7eoFbe7tEH6Z6tNt-Qt9k23X
+7vJ9pXoR7zdaU3kYqtApHxr6WNAH1naTXUAx9MXq8wG2Mca2_bS9yCkgsgwndt4pRnAL4LaBrmb4
+sf3HwJt6fl32m2JA1zDWtsaV6iMx6Grf3dAwiXlazOPagK6t7-U5s2t4ZBefRn6R6lFt7mebb7Lt
+vLF1wt5GayoP8iINcRipBhu7oLH1U8y5r5EPcSEtSKfm3waOqWbexaRTjNUa29UY0d7lfR3abNue
+a2yP2neQ_iGnnF2f7_LadWl7F1P31QV817wrsdw0n03NR7tvKT7T16eGBrO1hsal2Ldn3QOtT_q9
+bQNx7WyCRmsqD9e8lFZxYoXpAsuYuVzbnGWRUz6KFJCk7mNIILcFXeySyzPtCs9UkAxx1pbRaR9W
+bI99cojtKxXgsXtwjW8iZsBtoJBqsql3-Jqwle80r0sx-RRPSK1nCvy0uzRUDWNnG-PLtt9EzBdj
+banfkcwP_ekZwNqgvkWOHW4MstpGrMuotVkf6pAXKfWgUi9_qqF2PQPLoFI-wBSTsD6eNh_ndje6
+mEPXs0_5d7EPsK0hpJxJ25yH_s5T7zv-BtvcoZTap2iI771tvS3wdr27Kd9Bl32m_uqQ9yT1bqZ6
+QAq00X2JcSGlDil_Kdcerak8dDGv1IUR9dsUossl6LqfIS5ZKoTamFMX0PaBZRvDju0pFcxdzKfP
+WQ8N3JR728VcUz-21PNLzXWIb6QNRNtCPcU8U31pyG8ewT7mfW2_0zZ7SznXFND0-UZT72gKF9qc
+K4LpUN9g6vnEWDhaU3nQEm4LgS4fYcy4_QVN-ahTTKct1Ic2bqvGKSBOyT-l4_pi3G1grH1UXc6g
+rxldA7zaXoa6X9Z8Q5jJ0Pc-9b62uXOpYIipTd2GuC8WdJHHtc1L_96kZ7Y5p7YgGqJmKWdjeUuK
+P8UAHzuDGFCtWlrnNFpTebgmhFARYhewK3itj-SalylmCikQRh9NV7Nt_3G12YNlNl331uY8rfxv
+YbJdINMVOrF1U-OL3RGrzl1hbc3fpx4SMrH42iDR9tnG7NvUyqphVy9IuRtD1C52rn3qpdW-6-eV
+Wt8_488A1ky0y4cXuwDIMBGY0cfWxgwsKLQxnaEM2gKUBbLUQ_9yIVINMQaalPfWGbc19ZQPeeiz
+RP_WOQxlVql3t815aUZ1bSilGlkq-DUPsc6ny9p9IKzdEauti790vXupc13TJ1M8LBW_sfuhQT7l
+O2rjqbH8GgDWLoa8EH0OQYOpXMfqN9SH3Hburntvc7m1S6Dla32sbcEYO4820I1d-BSzTAVrav2G
+No4hTHhoCAxthtdeI_WOWfc15S6h2iNvucYd0LxPk_W-sW8vBoPUs03x1muD2fpmtHdd6mRxIeZH
+QwA5xKM1lYdUM_t7ETUYp3xEscuVemFSITbkRxiDRwxcFohTL16bjwrlkrJuGwhrOabct9SPqM0d
+7mokFghSat8H8Ckffdsz7-Pdd8k9Zp5W3VLvW8zQr_EB2r4sGKfkFPvmUvyxjT_0uV9970SqT6bM
+oTHF4kvKHet6N7U5RmsqD0McZopBdTHz2PguH4YGtiFNJ2V9zQisA2v7YbWBpDWvlWPKRdSMp43p
+pJh6m4_2j3GkmlfqHrsa5NDGN6TR9p035hkaeLsAt81eu_afAmZrX13Mv03OsXliXjkUmDV-iHlH
+iifF-EmDd4qfptxNmd9oTeXB2ngs8a7mZX0g1iW1PmKtUGjjQ13armadAkTt8FKMrcvZxUzBAnHq
+BY7l2eYDt4xtSFPoc6dj0Gtr5qn3K3XsreqU8n2m7McCluYlbQ17yO9dg4eVWwps2-63PeeY1-aZ
+L9UnY75n_ZDGljbfatf829yr0ZrKQ1vQDQUhC-wp8OlyAWLz9TWWth9nm5y6wBbVWjMqC5LIFFKN
+fWgjjNVn6DO2wB-LY8h71vautc2rj5G0MfMU40vNxQKcZcBDn0vKt5oCY6tOMe_z4jaeErsTyAuG
+usto-hgPNB9Jue8Wc6z7Ers3Fvj5uNGaykPswneBnmXO2gZTC93m8qUWf0jDaQPc2IWwckw12pSP
+L_WjtWpm9Y3BMfYBpdwnCyjXljyr1P12gX6KaQ5xR68FoT79YnVFXmIBOdXTUmtiwUr7XqxvPuUb
+tXytq3e39bK_90WbX55bCg9S2q0atfEg60xTv6vRmspDDIx9Dq-LJtpeyCHW77vHNjmkmkkbM25j
+XClGYAHDOkN0Xujixwy0LZjafFR9zy12plodh7xX2nwxw7bq3CfflP4aHNsanFVvDbop5nut7x3l
+ZeUYA0xfcLTxyZQzGLJesRysc5X7j32HsfuS4iex_sTOYbSm8qAlrLUNYWYWaNvmkgpRa9ytQBw7
+zFhNtAvX5qNJBXrMECSYNWNMnbfNR2_dsWVc1zKSGDxSgfIdusV3YM3T9m61vcOpwLv2928BRcsx
+5lep9yvF89rupQ8bYvch9fu1PFPzHXS-Ur0mdY_Wr-PxozWVB_1CdCV7LMmUsakQbnvpY_tYH2Wb
+S9TWMGKws3JPNZK2H6s2H8pVOxfrHJEhWudrtcXyHPo8U8829gG2-bhTQH8N8A4JpBRPsaAVu88x
+iHX93rvuUfteUB4IyjHI9fHiNueU4jfXqFsbCMc8KdWDrDOyfC2VmQ0Ap1yMPh_79vG02bh26G0N
+7JpGfE0Qozq0gUDqx6qddwrMUj4Q7WNoa-7WPLGaDm2yKbDoC8s_ebUdi85q6LysZ_2Ox87eAl0M
+aF332tZzNABo_aX4Qsp3NdR_U_-_UHW06qXVU8urqwelMMZqt-xntKbyEDNMzfiHKnbsg7Ly6nL5
+tQ-0FuYYA1XKPmOXKQUIbUAs29t_-Gg8ul-ynqVc-NgHG6vNLc7Y_nba7mvoPil5XNOste8uBowU
+w0vxkDZzD3UXtPwsIKfe4dRvMfW8Yh6isaHv-bTuhuWBlk_19aBUaKcCHdVptKbyYCWW8rGmfrzh
+eZ7rlw1pUesfSyrQu_Y6lBnF5kuBpPZBpl4AC2xtP7DUS2gZSeyCx0wmZtKxD-VawE09v6HW7Dt2
+CNO_dv1SQN4FbNfab_w7bGP6aD8pHnCNs9VAco27EPOS2NlqXmN5Q6qnpnIIrcnj0ZrKQ8omY2BK
+1Twf07b61WrMtPh5AeEulwAVOQaAWxpNygfHD-a3cv9_7PVDT71Y2mWyPv6UC9rGaKyLa9XVAt3Q
+5xz7EK33Q_XStlZt5xnqe0j97qz9dLkHKSabWrcutbDuvQYPeY9TamLVKTXvFJCnnGVf4Fr_kgI2
+646l_Jh1d6yxbb_j0ZrKg5ZwiiFaRZfvusBXg3DKJWxrklpxrwXh1EuGLs08H9N8_nhuf50-fdXq
+dXZRqzambV10eVdSoGLtJeWDsEw21s8ysSFgm3qmfXLoYp5DGF9f8KTWzFov5Z12zjFDHfJupOzb
+ylcDcVt-agPmPlCOfZt965byHztTy4OsttS7n3o3rflHayoP2qbaXtZY8fsC_Me_mU_XD8cCT5s_
+15A8pHmOP0wiUuEbAMxrZV0A_XFZwEXQjQHa_uBTQNX2rK2choDhUKYcM8drr9-2Ll47D8s8__Se
+4mPWNzLE-i0Aavc9BmQLHH2B28Y7tW9pyHuTcj5WTVJ8xZIG-FTPsWoyWlN5kB_AXLQN0a0P7PeY
+egPYyq2N4aAPQbvk1zRHrY4f8N0_L7vV6nVGi1oHXezD1IAbqxW6mNqHErtrlhnHPkqUU1uD6HPe
+McNAdf2vKPY9D-0dtFkv5kHIXBEotPtnecnQNU41-5RvwoJKGxCn7t36Fi0P6OOJmn_kwFTzqRS_
+ad_stdeUO9sAsHaQsUva9tLO83EvAC9q-WLFcolBKHa5rmlyqO6-x9QLwD9O07epRSpwY_ZpmV8M
+orEP2DoPC8aWKd3KdLX6DbV_H1CmfAvXqkns2_yahwYky_-6rhnbZ1uAxkAcyzNW0yGga31zfe5f
+in9Y52v5V5vaW3Ol7N_qxWhN5UFOrkE3duixj7gvgH-ssbEPYVTWB9r3EnUZM8-HvQC8qNOMLHap
+0TtkCJaBojpbhmKtEQMY_vhiuQ1xjqkmZX1D1wbeUDDum2eb_S1oWCDV7qfmb9c4-1Qga4rdnVTv
+utbZWd6R6jddvqXY_SLPsO6G5WUxgLd5Rh42WlN50A7SuqwWpEyo9ASwzCnFiLsYwZCXNvVD5TX-
+PaZeAP6xxx_Ctj-tgqWes7aG9UFaa6S2xc5Oy0f7IK55vteA2bXyjtX6WmtaXtN17pixIk-pC_OU
+umpemwrkmHelfJ996mqBZai6WT5vnasGT61GsTk1YLeBMIpHayoP0vzRoVvGlWo4QwBYrouKEfsY
+NQBZ_4qZ-tCGPc-HvQC8qOMmhi5H6mXV_mkfo2U2qD1mNjEjsT6Wa5xhlzvX5hvS9Jq-04YyeqAd
+ERFtKDu-e6BdI9YU_i1quz4pOXapc0q7BZA2xmwBN3WfQ4DLuiMaQLQ4VouYh6XuybqzmocOVSPL
+E1LrMkRdrbuSUh_5t9GaykPqRbbMOeUQz1CZHc0iWcuMpq8z_iGmvgb4rAt8LYNGl2gIAFuXos3F
+iV38lA8m9nENYSRWPrH7fM1z7WKIbeEb__dwlmDm-Z7rSfTuD-FNpHiOBeFUOMQgFYPxNb-zFKUA
+IZardR_HOrdUUHddB52pVac24E5hHwJ1rMYptRitqTykXgwtsZTiNQDcAyoph9DW4GKXakjTtPRI
+q6vM63K5XH_anqczCF-kzRokJa9iPEPvEF9ic8ncELTPAEab0zZmTR6DEwfw8_Ltc9zr-CkZwD-2
+eKMx8KM_2rN1kEOCV873SCva--aPzuVyuYiIxj_I1lRCr7agGHtOBa-V32KB9h5xa7Sm8iA3lSIN
+2DHQcQinavo6o0WdVuAhYKjFKYDvIoevy_VyxSEsfT4Gz6GeLWhrPEwB9mhN5UEDDNqcllyM-vz9
+73asb8DXKrYGSS0n1OfasHUAu66pbDk-P_9mi0Y7j-vM5XLdEsDP05kJXQRnC5ptnzXmIJZYPEQs
+Ga2pPCBix0BnQUsDr5W0VkyUSypgU5QKYbT-1H32ATA3QSk3RRe6L_FedIHuteZyuax7pnna_AfR
+mkqTQRowNW60Aa8FeLkGZ4DFM953tKbyYCVnSQNSHyDLxC0gWmDusrYsYpvxXaEfA7DL1ReaweC4
+uSHTk-00AKN_yEAtY3W55L1C8fgH0fN0BpmgwVODdFvwxmKLXamcGK2pPCBKx8AmN2hBD-W1oKuB
+vg90LRCiw9LWvIYsAHMTk3JTc1n3RTM2aXIxcMegnNrmcnUB8JpKyCSNLTGGdAWvxigEXfSPGHJv
+bSIM4v-apAisIebtcp1YzPOwNqYVVgM-z0XrI-ujg7gWlB2yrv-CnfH75-ovSPqyBlALgG14wvui
+cRrwJXdiHLq3NqQlJGGEkkcLalCObQTB3YK0dmiph6zlI9_3hW8XYGfLuZuj64-TbrYw767Lhe6J
+5mmIMRpfNKjGWGZBHY1DbELc1OD7f-7SaE3lQdtEmKB4--3XHHg1_aEebAr0ZVtboCI90or2f0_J
+Xd_obDm-MDFkcFYbj5EhWv209TVjdbksjX8QramEQEawk-zS2q02a5y2pgSwxg3JjNGaygPaUPh-
+2fz66w5VQpiIqHj-PgKOJ5kD2PXXSYLa5eoKYM4kCTgJtzZwtsArhSAq80HQ1drOALY28S8A_Dvh
+6wB2uVwuG8CITRosNQjL97G5LGhbY2LQvQCw7MyfvxtO1wbwajqml82vbwewy_VyuS71PJ2pEAuA
+RNCTz6kw1oAr_-J-C7po-qA73kFOqFFf6vVl2et96hpDzIOK_jepzAsq88Lj-3Ds6n-H-T79GfFQ
+Hh1YxP852HiMOCbbJOM46yQotXli60ugh3dc93KDctEh9PwyG2SOawA4Ff58H68vy_ieYn209-v3
+XavcxpPMHfkPFT-rcI6xNtTO7wBqi90xrS_6i9baqftDY_R8vJ82xvVn3vUuvobAx6HIocxBKmFo
+QRRBVYOznE_uKQEv824AGE0SVCSASUKFA8uCl3xuC2s0huc0BPgRKFPm7bP2rEgbu6ya9S-zglZ1
+dX4mIo8HjjeU0a5e9p7PApPVxg1N9kuFFgK21U-O1QaOKf3awnZVV34f-7C4j69JqHGYhefQfnFX
+xDsEVu1fA78FfZkPzwlB_F5bpA2YOPQksDiEU_dKgRcakzpWHtDxqnSDPgK_7BPr5-oztKGMttUv
+mhYfFqOD69ZCwIpBLBV2Ltd3i8NOskq_R2M5JDWgInimwFqCX8LZAvIZwBrZP-7bwElCp41uCSO_
+T1kQlBMHagA92vPryxL2Ce1arV7efsL1lxWuyazANV7VFZX58cRWdXXcn8eDxVl_rPsRwj9pVy87
+zReeAwQlMFPaxpMsqe274dsmHy6_lwtTZTX0_-nfjofwNQQ6BF4EQutf9pPPEuLaP_orx2l53qGO
+2oaHlIRSAFdXgLdR6r5CLn3zCkCW4E7ReJI1fq7-hrbVrzOQ_wida2jjAGrbT4PXLeGr5d22Dq6-
+T218jcOS84pDE7UhyCIQcoBKmKL1JYTDj48LsQSyZM89n1A_p0AlBbQSuAi_fC6tH2-jYzgo0Tz-
+BVl7GkplXtCqrs7PROTxgPEGQHha-KRdvWw9X18hiN4SrN_pVV35ffzD4l6_xmDHoSehKds40yS8
+U-6tHCSUJWwljLW57xGl_SaOZbShYgEvpU-XsSljhlYAvAVS2SfEt8jPdRtNi5-0cca7_utsr6n9
+__78PJ5kNJ5k57YAXdSWOl8btVmn69p98nP9fQpckqySoOWScORtqf8IuBpQEbi1XBsA1oj-Nwvt
+GSkGfR6H59iYa4F4VVdU5sX5mYg8HjieHkPaVr9oWvzsNF94RmDhbRysGghT2rr0udY6ffcsa_j3
+878dX8OzJfC4l2uebkEbAVWCGM2l9eFrWXAmIrrjSaFJ-lalwNflknqgHT3QjsaTjHb10gvicl1Z
+Ep4xcKIfAq4GW8Q_CXjtP8zJ19AYS0R0L_ksJ6DJDyref-81h1lNfvy1F7XMC1rV1fmZiDz_x_Nl
+tWzckfEku_n4a8SruvLz-cPiXr4G4BnaeB-UHsZp4EUAl-NxkKJ-uTafAzGV53gvF0ObpRO0OMEl
+0bXkJeBR0ug9KoJVKO0wtEORUC7ef-8nobp-3-0p-He5XK7BfU2ySfLKYoEGcDm-fC9Bi_aU86WA
+V7JotKbyEINUCuxi4E1ZQ763gG8V2cpFyyOlHR1g6v4sPdKqcTFnxSxp3LJa0niSNeuQF8d86spj
+jy_MLtytW433_N_Oh-C1NZXQvzXgpTIEQdTii9UXvY-lS0R0JxPj-1qyMeAhYMv_Gsj5_3K7P--k
+PCgPeQDWOLS_PDS_H3kBUF6xQ3S5XC5Xe2l8kb4bvJp7Nu-HOYCgbvFFgyiay8qXa7Sm8iDBxYWo
+HwOPBl60BmpHa1qQQwVIXV9Tal7yAK3xmh5pdX7ev_9aXczxJPvKJS9oVVfnZyLy_B_Pl9US3pdb
+jffY476_9jydQX_NebDsF_NIWyEOIvZo4CYiutMSkgM4vflmUb-w3uqPNoE2I_eRa-F2CeHwLAuj
+FV8eamxuVHSt0G0uXpufy_Vy-dfVx9c0f_Vs4F7Pf7wf92zJNO7XqW2SV5wTPB__lmTPaE3lQQLS
+WsSivtZHmxdBSoM1mttql4VrIy3XlPW1-Vp6pNVgF73Mi_P6deWxx7R-3zXux6yY3XS8x-92PISe
+pzOTMZbXW0yw2Bb12QgPEPsQE_60QXxCCzLavwZblBwqBl-bKhBaU46TB6E9o4NERdPy6gJfBNBw
+ibvELpfL9V-REH4m-ZXH0ovlT-bh-SwGWVC3xvA1_ToaE0ZrKg-opQWW2H_M_pY00KLDQH21uEsu
+KTmlzB9b95FW50u3qqvzRfTY477xslo27tp4kt10vMce942fp7MLWMpYg6Xl2QicGndifEE5ybkR
+C_7kJHKwXID3Q_M06qN_ski8f7ndX-y0ebRcZQ7aHOjAUnOy9mpdDJfL5XLFpfm69OTAHv6zPNvi
+lfTsVLhKwFrwJSIarak8oBdyAvSvJYigHZtfW9M6CARQ1E9bJ1XaOnJ-VvEtPdLqa768OI6tK489
+7h3v33eNuzYrZjcd77HHfWIiojWVKvwkf1K8G0E4Bf4xIQaitXiu9xokQ6zBV-5rwEXPvC0l6fBe
+rpeyyZS8LPCGGsT6oLm7At-lcrlc2IcliC2IIg-mni3ZINvkvNY4rZ3-y3xGayoPbcAkE5VJaQVA
+86asZW0oRW3W1N5phxM7vFQAP9KKyrw4rlVXxzk89thjjz2mNZVR6MY8HfEq5uMaeC3WpECY6152
+jgFIThTIb0FSA3ysaHKMnC-2jw5JHiCPNVhrc1promeXy_VytZPmvRqMERSR7yOf1rxdzo-6yv5y
+DZTLaE3lQYMEatcSjVE--M9zXCikH6elLahaRZdQRUWx9hobJ_GO1oxdKCKiR1p9zZMXxz515bHH
+Hnv8T8dERGsqVRBz-415N4Kyxi4_J5ojxh7rn_teG6QlIP-ls9X-A77b52UygKevM1rUl8CLbRLl
+VG73F-uyDhDVAR0k6o-yTLksLpfL5bqEqPRT5NeWRyOvRp6N2CGBb4Hbgi7iwWhN5QFBwiqGXAAl
+Itvm_Zi21S_aFj9bQ-jH-quAvBCa0EYteKfuFx2kdiix_bgeaUVlXhzf19VxDo89HiBeVs1vbTzJ
+bjreY4-7xmsqoRdLz0f_KvvKftKzLZ6lSPaPceFeAxaCrQa5QH45hj8v6j19wLeh2Q7vYnn8yLVN
+xOCP3vP8w7N2aOjA5AFZMI-VzeVyuVxpCj6qeSoCp_a3iBmonfMMzWuxkK_JuMA1WlN5iHWSUGmT
+BG-7PSbaPi-jAGYQnr7O6MceFyDWZkHaAmEKTBHkU_eXeqTVV-55cZy-rjz2uHe8f29_Y7NidtPx
+HnvcJ-5gwZpK1WclaFN82vJvaw2Ld5o0Hgbdy04aOEK79l4mIzfze0y0rX7RtGAQPkG2AeRldgFm
+DYDyAHibtXGtGHKvWqHReJRLHyi7XC6X69JnNR5IkFocsPiQAmfJuZjva3y91xbXNmtRH8HvPHY6
+pmnx8xK4QQHGAr7amnINLS9UcK0Y2roWuLWDkXWLQj8vju-rymOPB4sv7vSNx3vscd8YARDxAPkr
+8nw_l8U5BHTEPcQg6-8CwBqUNHjENqn9-87HtH1eNrNfZl-QDRBWNsjzQJvRgCwLrhVDHqDcY2hD
+FyJWE1lTl8vlcsUlvV_DKAIm4pCcy4JkbF4JZd6WAuHRmsoD2mCsGNYmEUDn_Zi21S_aFj_-IBzA
+i3SC8fR1Rota33wsRlC0Djj2Dh0I2nfKukGPtPoalxfHMXXlsce94-178xubFbObjvfY4z7xBwvW
+VF54LQKv5tcWCC24I6UAPgZdrns5iZU83yiCrlWkRb2nD-heQNaCcARofF0tTimGBUd5OOig0Zy8
+FlY-l8vlcumyIIlALAGZAkqNW7KfhLNkX1sYj9ZUHmIw0cCiQVrb2O8x0fZ52ar409cZ-VDSQcVG
+xZR7smBswVVbKwXclh5pRWVeHPvX1XG8xx4PEC_r5vc2nmQ3He_xx33jNZUmJJH3S16hsSlwl22a
+98f6ary5l51khxiM_IJ8Yb7oGb7VL5oW6RCevs7MwskNyzVRUfgeNTDydq028rC1g7VA73K5XC5b
+iDuW-0oAIlByFiCvDgyR82lQj_WlMWC0pvKgQbZNcSzghX6-m-uI6gjsn7SocWH5GrJIKAd0oG32
+jIqZkkNsrUdafY3Ji2O-uvLY497x-n3XuGuzYnbT8R573Cf_4MCaSujlFg9QH-ROA7gG0FS-l-00
+CN9pycvJ5YYC9dGicgNy4Q_wpvxomV0UK1Yw1MbzQHtE8JX7R3uN5YDmSwG9y_VyuTAoufdqPJB9
+wk9yIPVZAlTCX7IRQZrHy7IkIqLRmsqDRWgEMwtMCDY8nudj2j4vkwo-fZ3Rjz0ugrZJq4Ap_4kd
+Ptpr7MBi6z3Sisq8OM5XV8d5PPbYY489pjWVSZ7LmcP9W4JS83ULninS_ISYsyxLmq1WdI8gJTuj
+xFGiGu35vIt6T9PXWdKGPvoi8PF-rc0qSAoU0d7DszwctLYFa5fL5XKlSfLFYoCEpsYu-i_fkVdb
+DEJ5WkDn847WVB4sMMSgoYEGgSoGIm3TqQVA8Jcb1tZPqQG6AHK-Wk2svT7S6ivXvDi_ryuPPfbY
+4386JiJaUwmBjLxYA2BqX40tGmvkvDFWBC3L457utQli8NIgxufTNqttWM4XK4y2WXQAvA_CogVk
+_W_ti_qJDkIDs8vlcrkwcKV3Sn_XsERMQSxAPOPvpI8j30esQezi64zWVB7Q4lpSGhAl8HiicvMx
+_GjzWhuSa1lrasVok1NKkVPnf6QVlXlxXKeujvN67PEA8bJaNu7aeJLddLzHHveN11SqPm-xJwZv
+yTg0jzWXxRqLE8uyPI_5s0iOkuXtciG0Ga2vtSE_RhZGm0eOQeBG_ccKiwoYYpQDiuV_Ywfpcrlc
+riYkkc9b-OEMQn7NfR098zFobQ3QGvTDXPV2cX43WlN54JMX77--mYOtJj86XwheXAlf_cwvCtIj
+rb7my4tj-7ry2OPe8f5917hrs2J20-Eee9wnJiJaU3kB4VTPlUJzSH9Gc2vtbVgQ4mVZnuN73ull
+8_ufgS8RUfH_W4WwBKZ2aOg96pMCYpfL5XJdejECIPLc8Mw9F0FYvkfPyMO1NS1AW34-WlN5CJ2K
+99--3OFqAE65FPJAeNHRwWqH8UgrKvPi2KeujuM89niAeFktG3dtPMluOt5jj-vGaypNn9Wgx32Y
+_7EGSOTp0r9TZeWxzx-Pz3cIGv_6UC1CG3_HDoo-h3f8wGPruFwul6vpk23gK0HIf2Eu6dHcnyU8
+_Zy8j-Uv2cB-XKM1lYfQqXj-fdVCvr4s6flldrN5UvpVkx_dL4SEKLoM2oFwPdLqa468OPavK489
+7h3v33eNuzYrjt-DrcZ77HGfmIhoTaXqpV2AjLxY82fZLudDsnIot3taluU5vtMS-VeF6hDaZFH5
+YVkHKvu5XC6Xq50nBy-l-qo9cz-mP_TV3Jf5PBqwNS_3xobfa-7eGDNaU3kInYr337AAry9Len6Z
+0evL8nOB55fZuZ3HsbbQzvuEua3xMhcuOYfMlfdDqiY-LtqWZalehtlqdXHgUqHw6ADRBXikFZV5
+cZyvro59PPZ4gHhZNb_D8SS76XiPPe4br_nox8h3ka-GxMEpQWzF2txyXeT5oV2y5Z4POG4ZC4FS
+Qk-CGcERgVPri6CJoI2U2i8VvERE9XZBy3J_PAxaq8XWLgQ-WP7scrlcLiwLttx7_TP-t_bjcE2J
+JZi1dbUx9XZBRET59MiRe9RRAxqCckpbG3UZH2Cr5ZkC3nq7oDzSL5-Oj-2mc9rnj8diTjN46PJg
+5MHLuq-q6vguLzz2eLBY6tbjPfa47-2NwVY_S0A27i_DKgJt4MEHHZc5nf1_tlqpgNfWleuX2z3t
+yyN4g_75Bo9bbwc_Cc-QlgJSBMsuAJXrtpkjFDufNgsjFQ4iQDiM2X8UndYNwHLQygORl2FZlkSr
+Ves9u1wu17_g1-ydnuvJBeAQABH8EHA18NbbBeVs7eD3y-L4v8mJnuuJ6vW8jfs8aiciul_WJY3r
+Ne3zx9bw5ZB9fpldtKF_bedEUOX9LNim9ktROIgA4QDlzwTHx-fj_ghifhjy0Bvg5YeUF8e_deWx
+x4PF40n2reM99rhvnE-n9EpHrw3w08CLvJZ7MYdv8OZ9-ngGL-d27vmBAZ88ErkgsGu5vI6PY8Nc
+9x_LhQSIjo0IZKntKW1W3GVOa3xf8EoIc-DyuN4uKM_PEEaHEg6AiGhZlo2DdblcLhcWh_Fr-k5E
+RJv8EsYalIPvSk-e548X3i5j6fkSxPn06PkxCIf3cp17vkFX-ALk07l6KAHCoV_AcTiMzXh37AsO
+fFVXx0uTFx577LHHHktvZb6bT_f0Skf-3eRED-sMApCDN0B5WZYX3o5i6fu8T6P-yfNDDhzGH37-
+mr839sEhft984RBGCsXihyEPKhS28T8_jnkdn8ANoO5yuVwuXdxzEcg_-HefP1K9XUAYv_bvZ699
+HS8oZ3NK2HJP5r5vATu0bQQbXsdN2MpnIqLRU-l24JO_Lv4dKDzPjwWygGi186JalwRdGq631ROV
+efGZ06quPs-BY4_HiJfVsnHXxpPspuM99rhv-FS_NXy4rddqXm35O-J-_aythXigAfheTvI8b27Q
+Si4VSFYRUtZImStlbmutlPbYvDwPeSjaBUqtr8vlcv2L0vyVeyvyWuS7khEx-_XvU0HM-_X8sm30
+VL4dNMprhWgDJJ6YtUZqm5UTKoYsOBrTBYJ8fnlg1r4R7N9WT_fnMi_IiGhVVx573Dvev_8ad21W
+zG463mOP_8S8TTLG8noUp-h-7B2aE4EdMQCx5k5LUpLcAomkv5WAbLfWtXLhRebz8hxkjOZtA1_5
+R76GrI3MB_XkcrlcLlvBN4OPpkLS8mEL2BobuH8jqCL2of58vdFT_XaIDbSAZFFfgztax1oTFRmN
+jxVUmy8Vvuig5QFp7dbleFs9UZkXRES0qisiIo89HiReVsvGXRxPspuO99jjvnF4trw_xh8L0m05
+h8COvB-lJOe5Q418AAKKBAuCsJaoBnkNlKjwcoOoGHLN8GtTeLRXuQaqGW_T_47t2eVyuVxN77W8
+nrMBMYOPlfNJ1qAYeTz3dZkLWhutSUQ0eirfDrKjhKMEj3yPYg1KqHDoOSar0DHAxfK31pQHjg5G
+Xh4tt9D_tno6t5d5QUREq7ry2OPe8f5917iPs2J20-Eee9wnJiJ6Kt8gJyRntH_tT1vmxLiQko-U
+vRxggUojPAItSgjBRz5bgNQKiPZQbxfmmhKSKbLy02AcnrtC3_Vyuf5lxQDHPRb9W0Ds4sEWyEM_
+qRAePZVvhxil28ACLRorQpfNo2cLqtq4PmvL9TTgo1pwva2eqMwLIiJa1RURkcceDxIvq2Xjro0n
+2U3He_xx3-ipfFO9N4U1ss0C6RAQ1jiIGHCPkpODLHClgtZKSCsCygnlKKEW1uOHhPbTVlod5P74
+JdFArYHc5XK5XJfeK70e_a70XosX4V0bHkiGaGtrkJZrjZ7Kt0MKDDUwau8RjBGAuBbbNZxvPn1U
+N4QOQMIRtafuResr59VAqu2dz-W2ejr3L-OCPva8qiuPPe4d7993jfs4K2Y3He_xx31i3ia9F-k_
+4oH0Yw3ObaTxTM6F2MrzuEeTILjxSbVNoPdyHg32i_36DNqPor-Ov6A0fT1CmOdnFcCCsbbXFFlF
+1vLS8kR1dblcLpfuu9Jbueci3iCflv7bxYMRIyUD5DrI70dP5dtBg6JG-ljCCDr1dkEbytQxGnyP
+AJ7RA_3UosaA3Ba01r7kvLLQ6KBiOb6tnqjMC-qow6quPmvgsccee_xxRU-l24X3an6KPBh5tJyr
+CwfQPwK0xZ97i9KoDU0Ugx8R0Qd8t89LY1vWu691ZRGtnLVCdym63B8fX28XFzWQtRlifZfL5foX
+ZQFXemzsn-ftygGLmxp40fqjp-LtYCWKyK8JwS88xwGsa-o6owfaXayN1kGFRu19xSEroYvarBzf
+Vk-nfmVeEBHRqq489thjj--pmLdJeCH-bwPvvv6v5SNztZhwh5KSgxHNY__HBh5Pvt4uznMj4IY2
+3gfl3we6YT5tn7Imsk-s0rhcLper6bMWALnfcq_1vLerByPehDwRf3hePB49lW8HOUlXcGogzKdz
+WmzXtH1edtrs9HVG8_mjup7MV_bBi24BM3XPfB55KNqBWuu-rZ6ozAsiIlrVFRGRxx4PEi_r5jc3
+nmQ3He_xx33jp-INeqfmw5bnch508f4Y6xCgZS58zL0FB6tNg6Bc8CuJ44fbVWh_tK5cG_WNit3m
+ADToa7CP1cnlcrlcce-XGKN5bgyaXT0YMUADrwZpIjoCGG0wAE4mKCeUfTR4b7brXoegza-BUCvE
+EBeBxwj66ALI4st8VnVFRERlXnjs8WCx1K3He_xx3-uL2CS9XXqubEMx8vQ2HEDwReBF-GoAWG4M
+JScTlRPJTV4WJRsMgNZaKYXoUnQ5VoKYr49ysC6By_VyudI9mD8j70esQP9dOYD4aIFX4_noqXw7
+aMnFQJEyLvwvtmvaPi87FX36OqP59BGujXJMzb8t_HmsgVm_syAe-t9WT1TmBRERreqKiMhjjweJ
+l1XzmxtPspuO99jjvvFT_Wb6fIr3apxq6-0p-RGktdzvreTQ4rwN-fMEmoU5frh9IRj_UY5ybZlH
+V8mxqCYIzKgOXS6By_Vy-avins89VoMv4lnsfar3W-CXXEL8kYwYPZVvB20yDbxWQihBIqINZbR9
+XnY6gOnrjObTR3PzvFhyw7E_bS_CBXp5yBqM_Xxvq6dznzIviIhoVVcee9w73r-vGndwVsxuOt5j
+j-vERERP5duFfyOYIc-tAt22svhpsYiI6A6BgXdCG_ftCEAa9IbYqFbM8KytHfrwA7HW0A6Rz6UV
+2roc16iLy_Vy-c2SHi-9WHoueoc8ONX7Y7lp81ssyqdzGj2VbweL4Ij0GrhiiSy2604bnE8fzTzk
+BrUi9AWeNS86vFh7yOdt9URlXtDHXld1RUTksceDxMtq2bh740l20-Eee9w3firfTM_PwdViQVcu
+IFZa7JNrhXd32iZ4JzmRLIKkOx-H53qgXeM3nz5e-MvfA_1U_PK8tCJre_oivker0Cn10eDscrlc
+Lgy78JOeb7FKQtby7C4sQNxBOfI9hPheI3cYbCUpN8nhhNpRQRGY0BoyJwSxFAh3LThaU3tOORi5
+12W1TMphVsyIiGhVV0REVOaFxx6rsdStx3vsMYpT-W48ySCHkNciICNv5t6LmBPzfxlrrNGYxfO7
+R-CTnbRkrTFy81bBEJBkrOWkjUFFaFNsJLRXtD9ZB_tS8HwCXDWlXlqXy_X6ryvV71JYIftJ9qB2
+Dsc2-o9iOT9qQ2vdWxu0FtTgpwFQwsoqqAY5mVOssBrEY9JAba0n36HDi9U3Rau6IiKiMi889jga
+jyfZt4732GMUt5H0cumzPJbejPrzuTSvbyPEPgRdtNa9Bgc_4HWRkqDsE2LtX2vT5kV9rDmbz8-z
+L-CnHLjVLusjD9_6AAjiUstq2YhnxazXBXG5XK7-qmJ_J5kkPViyK7TJ8dKPJSAtUKbwAoE4ttY9
+6sgHpMH3v6-XxZyee25FXgQNshLGqE-sgMeTjIiI9u_7RnuZF5-tq7ry2GOPPf4j41S-Q4CTz9xX
+ue8ipqX4bwp8US5yfr6uBvY7mSiCiat5oNrlQIfHY34JvL4ul8uVJgQyDarSk-m-BGVXH_a_roEX
+vZPef69tSILEhYEqD0EeKCq_vEhIZV7A9lVdNd577LEVL6tl4-6MJ9lNx3vsMYpT-U76rsYq7r3S
+cxGQOayH4J2WEwdyeOa53GuDvzpdF8SvL0t6fpldfUxfoaLydxK8oS8CcQy_Ltc1tX-fJfWbFbf9
+xlyumP9KVklv5t5rAVlCeCguWBBGY__tSW4BiFuDNFZITfKwUoEr3yMQI63qCraXedF477HHVqzd
+nxhcl9USzuH19XiIONXvpDcjcAZflR6rQTfm9W0YIXNB-9a6d7JTChyIiF5flucfb_PvZF9tDquf
+XCe2BlpHgyIqZGycPFx0MdC8HLwc1l0ugsvlcv0rkh4bvJOD14IzH8N5F2NCKiPkXPJf5sR1L5Pk
+-zE4PL-MzvBDz7F3zy_zBlBlP9mfj9HW6FLANuN4MXmBw2XQDof34RDWcirzArav6qrx3mOPrVi7
+P0HL6vj9Bc2Kr_8IzeH19XiIONXvkA9L7_TcQvDTnvswQcsrlp9c704OkAPbKgWEml5flmcgt10z
+ZWyX-aDxCKQx2KO6DnH4LldfjSdZA7wu139J3F8lTBFw_b-sb3l2V1bIHBB8Nb_-R4TmicaA2Re6
+Q8E7jH19Warz9AWedrj8gNEB8suCDgZpVVewvcyLxnuPPbZi7f7INtQftXl9PR4iTvU7C57SPzUg
+c__VbNN8uA0rOBc0j_frXwBYDpRxH2A_v8wuQI0gyfuFGLWhOVGfoSTrIA9SHjwqMh8j_7U5aJfr
+GlpWX9_Py-VflAZPq58Er4Qgn2soRmhgl2xtAFhCpSsYNPhZsOXv0PiUOYeGrjxQFMtCIvDKQ5Lz
+WWPKvIDtq7pqvPfYYyvW7k-QrNC-HTSH19fjIeJUv_N8knCTrAqQlX6LwBsDaVtGSHbKXGUOQXfa
+BHwTbWDbBtbXBKcFwSHmsQqNYM3rzC9KlwN3uVyuf0XcI5HPIj_VDJPj5H8bL0YckR4vgS7-g_41
+SnO4-I0H2RW8EroSrOig0IGgmGtVV7C9zIvGe489tmLt-iyrZfS_ozm8vh4PEaf6HfJeySkJYt6G
+_iMw9uGIxk3OCfk_MOFOJikHPs8vaf8naoh98LqgYlpjJLQt_Lpc19SsmNF4ktF4ktGsmKmxy-Vf
+EIIq51b4yTYJXQ2gQ3EBeTx6z3WPCC1J-jz-2pBFft4uE5QFQu-kJuScaC20UQ1uXaC3OBnR-H13
+URdtH-xZAteCNVeZF7B9VVeN9x57bMUBpN813mOPUZzqdxJc0mPlv_bBlmcPBWTOB7mmtsa9thk5
+EE2AyG8lEArE2zXQojYtV2v92B4CYJNA-PBEGyJ62Lxd7JsfLIKshO-Qh_9yuVx-uxBT5D8CNY81
+uFtg3Tw86R02C6KHOc0Bk1DOFwDWNpMCZq0AEjgSwjKxEKfmETuAIaCrFXrz8ETz993FXjXIyv1r
+h8G1qivYXuZF473HHnvs8Z8Wp-qd5IfFHNQe44XmxQ1GWPAlIno4jl1MMqKHJ9psFjSfPkKOSd1J
+gEhwIJBtHp5oMcloMcnOz5tTkmhTWhsvEIK31ob68HYJdiKixXZ9zrmzHuZHCJ-m2zw8NerC1_Nx
+7OK4XC6XC4tzJviuZID0fI0lkheSbReMOPm9qdAn-D-ML9gYcpe618AgwRI2TZvFmfgyicVp8Tko
+BgculyyiLCh6z0Gr5R7_z8VEOXeFML8c2zU90K6Rq5TcP9_bpjIvYPuqrhrvPfbYipfVsnF-xqfv
+4VbjPfYYxal_d8Gch-mRNaf-ufBcyQD_jPpw8Kb4vdkn-Id85f-DnBZENH8-8oKI6M5KaLFdnwkO
+E_LkPy1Am8Vx3HZ9AVEOHQRMWSw_BoGXzxfaNg9P55wXk_wrx6EE5gv1kYeM9suh7HK5XK5EwPH4
+xJzFdv3p9RpXeBviRuDcoFyQQBbM5N5-v5hk9LB5o83DE23OID0BV248vI_R--S82K7pAYAUAZfD
+icN0c56X5cfjxoGc8uZ5yD0MfRlO620oowfaXQBW7l3uke_ba1VXsL3Mi8Z7jz224r73x__fx9eI
+U-0O8kdyaLOgBRHRwxM9bN5M7_W_u5hkwzFCMlD7f5jT5v-dHjZvRER094HhzcPTBTzhvwKfi4Ub
+i2XH_QWUAnj482K7Pv4mpzEXgBXFP61xkbvcx5BCc57WC-vkkOVAlrDdPDx9XQKXy_Vy6Z7LfZ97
+PYs3D0_0oaOn5tN5A7gN392ur5OrzFH_hxxOOd5DamuTyaLwzaPiMHg2IL9Z0GaSEZ2AtZEF5nOj
+ZwvMKP9rFBhdkM2CNpTRA_3O0OUwDheh3op6AJV5AdtXddV477HHVtz3-vj98-gacarfQc_V-s_f
+T5662SxoEyD78HRkzPm-Ce3enJAM0v557icI312ADEFUblwrCv-JOdA-74uKiZ7DP8pZW2tIaXOy
+emwenmhD2Rm8Acb5dE6L7ToKX5fL5XIp3ssBikAqeYGAqHEs1e_R98f_Ze5EdG8SXG5A26yY9GKD
+2vwcxGisBWfUjqAsi9kXenJ8WBPsYUMZbbZrIsqIHua00eoCtKyWsL3MCyIiWtWVxx5H4773x__f
+x9eIU-3O5A8CrfRk_Zzgvabfx6SxTlnvCGCtA4IrIrrcPCoSSuik_fTx-Pw6fzo-T19ndvFRO89N
+7qkvfOWcHKi8jgiysj5GPrNi1j9Pl8vl_gMU9TvEH82HpdeifohpQzBBQh79C2YcAaxBTQOytTBv
+QxAWSWjwVQuqQU3mMRRwtXy0-cp6adBG_SZoVVeftSrzwmOPo3Hf__P3z_NrxL1hJ-0-vJNskJ5r
+cawPE1LnF32OALaggsAcW1hAafu8NLK33ol1ZCHluloBhpJ2_BK86H3sEhDRskqohcvlcv0FauV3
+0nul3yPv1UCocWwoaVwCOgJYglMDLCK6BCOCcF-ohbk10MvcrwVitD4CsYRtwqGMJ9nnf5kXRES0
+qiuPPe4dS916vMceozjV7yAkEWeCt1r8Qf278EEDO_KSNY6I7mBiPEENhgiOctN94Svn1jabAsAh
+JNfiRUZ75YCWl2Oo_rhcLte-JMQABNYYn7ryQY6T3JRwNmB-n0RwjejovSzENQouISjzQ4VVCtCp
+8PIgUT6yTUJY5FnmBRERrerKY48Hi8eT7FvHe_xx7xjBVfNXCWQEQDluSMl5LSYR0Z0KMw5QOViC
+FW16qA2iwsm8ZKG1HK01Ut5pYNXW5W2hv6yttbbL5XL960JAkz6LQCvbEDuuBV_LB0yjbL44QJgg
+6GptGrRPz9vnZaf9TF9nTbgi4CEYXlN8zxL_6Fn_g8PfLb7iMi_IiGhVVx577LHH-3RMRJTNAVwt
+JiHAXpMRXeY_jbmH4OAwDc9oAf5ObhzQvvfmYjleu9gIqPJZXgQ55hYXwuVyuf42Sc-n3OF9pBfz
+vsiLh8orhRlCRwBLyFnQRX0RJCWY_2xOgzsHsTyYa8GX56QdNs9PQlrmfWor84KIiFZ15bHHg8XL
+atm4xuNJdtPxHns8RKz6r-R-jU_cH335YAFcMjGy5p0KDQlTuQm5Ibn5IeDL10EAk3l2KWwsRw3_
+2kGgOqID6ZOzy_Vy-UuSoOXMQeBFIERc65uLxgkL0Gz9UTZfHC6SbQMvvmkJ3VO8fV522uf0dXa5
+aQREdDjXkLVfuXdRg4u_TLvFV1zmBRERrerKY497x-v3XeOuzYrjN3Wr8R573CcmIsrmBjCRJ0tO
+xJgwNDM0ToDc7iEkrMG8nb9DYxGQ2ioGXi2_RnGt_iAQIyhrAHe5XC5XGuCCl0oP1ThhAbkvH6z5
+wrPk2EmjbL44qIDtUhC00a6QseAvi9sn-y5FTt1b7PCJaLeYU5kXRES0qisiIo89HiReVsvGXRtP
+spuO99jjvnE2P-kn8mAJPOTLfVjQhYUp-U-53TXAgDakwRYVQMIR9ZFzy3atmOGH1tLmHFIoD3TI
+8j-0lfCNgdvlcrlclx6LuCN9OXgu92n532bNrjlqa55yG2XzxUEFm9xQCvF5cRCo0Dv0b82PYIae
+h5A2n9ynBW3rIDcL2tXLc1jmBRERrerKY497x-v3XeO6zYrZTcd77HGfmIgomzO4Wr6seXKMYdfk
+RER3EBQSGgiwEobhh_DNC4Egiv75fGEOPr8Gt6GLzHPmecQAiw5dm8PlcrlccR-WuBPauO_GH4Ly
+UNBFnEDvUUxEo2y_OFwAsCv1EZhigE_BsfWPgD5EYbV55Lroosj2SG67xZzKvCAiolVdERF57PEg
+8bJaNu7aeJLddLzHHveNs7mAmvRR7v9tAJ7i91fWvQpCDWz8_fRuW-06TffIpubP1rvw3O5-WgjA
+yyL3UQy_-KBl7cI7Xi_rptalcblcLteXXyLvlIyyxiN-78INtJ7GScTRk0bZfHG4eBHbDOuz-SVB
+eztNi59pxR-q8LsAFB2I0G7x1V7mBRERrerKY497x-v3XeOuzYrZTcd77HGfmIgomwOP1SDc0YNb
+gXZA3TWS55vhCVib_k6FHFJAOMQ68jD4mjwXOYZfFpnnNfN2uVyuv0XBK7kPP8y-vFW28XfSk9t6
+f2puWpuy5iibLw6Q8lYb_99Wv77tPKbFz-QC9Tl0sWcI5raHx_q7W8ypzAsiIlrVFRGRxx577LHH
+dUXZXPir5sWoXfr0tXkRWyfkdnp-D5N-mOMJQpv8-y6lrN_36HyvfK7NQr8AKe_-u3Yul8v1J4mz
+SfJK-rflQB9OyLH82XpHRKNsvjgkJY2eNwvaVr__7TymP9f9AZtaXP4vgcpBqxTaqulu8dW3zAsi
+IlrVlccee_zxPx0TEWVz4a-S81M8_laKsZTnRkT3jURl0hq5w3NkY68vy89iPr-MGnGszWpXQXet
+QvO9Snjyf3kBJJTRZbjlxXC5XK4-VRpkkfciJmjPQ4OWt-E_CjOPAI6BASV-LsCjmiOHbHhOaePv
+WoPyOw5eA7KWIwB5mReftVjVlcceDxYvq2XjCo4n2U3He_zxEHEDYJJX0pu5B4d38rmv0BwWRxVg
+30VBIifihYhs5PVlSa8vzQ84RQHC0bE8x2sJHTwCqazLZtH8aXAe4jK4XC7X3y4JVgnf4L3co3nf
+rl6byhkJXPSO84CI7k2QWIRXiM7h_-wyOz-z9gBZq42P5e3qhq956PyAeWHlRZCFlwdixKu6_txv
+mRceezxYLHXr8R57PMj9ReyRnqyBMpFZSWC1GGGtGf5FvyOA5Wa0hOVEnxt_hDk9v8wa4JVgtdr4
+OBW_XQpq9dfeWbUJB84vAYIsqimPXS6XyxWHIPdS6a1dQdoVzGhexExj7SOA5aYG2rQJzyHGdYFp
+6lwInhyYHLq8LwcqGi-XeZgT1Usq8_Jz76u6IiLy2ONBYqlbj-fY4yHiC5_VHis9Vfq3xaw_8NX4
+idYFOdxBmKQSvmXiCKxdId0JzF3m4GB9mONi8kLzPlptUY1dLpfLlQa58JO_K6EXY1VXL_bjOBMQ
+PxT4EhHdm1BF9L5Y7PHfOfiwZw5lDazyckQOZVVXRERU5oXHHg8WS916vMceD3J-NQ8O-7Ivf6fB
+1wJzTGgcapMMELprJKxR3ADz9Of6W7g4-bm_LPzQ4JW1kbEGVnQ5_BxyvMvlcrnS-BgBlv_kB0v-
+vVZu-Bl5PMhhlM0Xh0aiGsHlswYpCSwuDWYp-2j9oYuI5kaHiPYby91YY7eYU5kXRES0qisiIo89
+HiReVsvGXRtPspuO99jjvnGWzzADuM8i1sT4NTQrOvS-uwCK3AwfiECEIMn78n-erw185Zwoz9RC
+aNIKGtYPuWj75f8od7RGlz24XC7XvyQEXOmz8oeYMQR8tXmQl8scQJ9RNl8cIKElZOSmJFjQOwtE
+Ke0SuKj9GtLAj4osaySfNSiz97vF13OZF0REtKorjz3uHe-fd43rOitmNx3vscd9YiKibM6AG-Np
+jVvXZobFKWP9OwhUSfnw-DC-nDxWAJ6AVhg5L-_XELxFIdF_tTzCO1QHWfxb7sHlcrn_FmlM4QxB
+PozGDg1cjR1a7kyjbL44mLRGUJQTagCXBYkVw1pHtl1T1nraIWsHYc15et4t5lTmBRERreqKiMhj
+jz322OO6omy_uGSNBVzpuddgQ0q7xbKT7i82JTtKomvwkQXRgKyNTUn4FvBFh2wBOnb4Wh1vuR_X
+y_X6kyV9U_MC92MFeq3AauWB2hHDEAdOGmXzxSG6uIQRXywGMQQ09E4DX5sidhGal7ehZytfK2dl
+3t3iq0_ZF0REtKorjz322ON-OiYiyuYLmxsaHK-FDMRFbR2NJSfdXWwGQZWTXION-NfApQEM9UMg
+HlpoXtSGio32E2LZT857zYvhcrlcf5MQF8KzZIUGacS2VNBa7EDgRz4PPH_UzRcHSHDZhiAa_0dF
+kJCOQTsGvz6y5rBAK-dlgTa2JyLaLeZU5gUREa3qiojIY48HiZfVsnGtx5PspuM99rhvnM0XNgMk
+a2S-75LGRqb7i8QtSGqQRf-hvQZ3PieCNV8njEf59RGag69p5WWBWM6D1vvuy_FyuVx-ijgDECNQ
+v_8GrMwZ9DkCmDdqk6CJJKj5s4QwKqhcS1sbQfyaB40gLA8fFTSlTan1qq6IiKjMC489HiyWuvV4
+jz3ufX_lB2vMMfz1KuCVsLdyQTw9A1hCJ7Y5Da4cyhzCCLAcZAi4GqSvKQnelP1zKKN8tUMCh_Fy
+uVwuIckQxAvur5Jlqb6f_g71lTmgXMBco2y_OCQl0OafLy4T5_-lOkOBqS_05Z5QfrF8tfqA-HaL
+OZV5QUREq7oiIvLY40HiZbVsXMvxJLvpeI897htn84Xu6ZbPDsGCNozo0H5-QWo5sC18wz8Cjnwv
+4Zxa1JhS_2rzyrVjNUJwDu-lP3__1uVwuVyuv0WIB9JLpe_GZ_mvQ3ku8nXUzvMAa4_y_eIAk9IS
+RUXQAJYCcQSwWKG6vmt70LHDR8BHcI7sabf4aivzgoiIVnXlsce94-37rnHXZsXspuM99rhPTESU
+zRfYmzk7hoBqG0ZY-t6Cp3cQmAgq-D2fDP3L92Esgll4Dj_ZRwx4bd7FJPeiwTfkqu1PXgx5SdCe
+XC6Xy6V7s_av0oMtdgyRhxYjfmhcOGmUzRcHSPG2tNeAY0FJG-8dknmgPK39yVpZNRPvdos5lXlB
+RESruiIi8tjjQeJltWxcx-Eku_l4jz3uG2f5LI0hyHOH4kLKs7Wuwrf7i82gSSWQ5DPvi4ArF0fj
+rlXA1AKH9VAeaE_yXTsMPp-c06326HK5XH_qLD9FIBySJZp-o2eNnYirJ42y_eKQnGQbKCOYyXYE
+ZiXRm4EY-aMD0fpr_zD67xZf_yzzgoiIVnXlsce94-37rnF9Z8XspuM99rhPTESUzU8ejMCm_Xgf
+BrTpJ8egOTQmEtHdBTjRf-hxcFiw4TEfK9tDG4_1TaUWsKssSIZcZK4arHnufCz6d7lcLlca9CQ3
+NMB1YUHMky1-R_94m8z5pFE2Xxxak59PjJ61RLQCaeC99eFq_9QAbeWc0vcU7xZzKvOCiIhWdUVE
+5LHHHnvscV1Rls_wPyOfbcOQttzr0o6YyXR-AZcUCCEgyUU1wKJEZFubYg4BbQ2QMm_5Zyvn0I7a
+5Pwul8vlSvN6zWcRyyw_pPqv7Kf5uZafkc8omy8OyQnLfgjMGpQQtGMA-I7D5THKT2uLHTx6d-rf
+Lb76lXlBRESruvLYY489-qdjIqJsvjD98_L-mlxo0wfxUvS7v4CHBpZU0Gr9rUKhtVMKOUTB_dra
+3lDxZM7yvdwn6jf0ZXG5XK6-UZJRyFuvAWE5l4SqzEf7V9g2yuaLgzrIAjF6h8bKvikg-w7JtTXo
+avmi-ae0E9FuMacyL4iIaFVXREQeezxIvKyWjWs_nmQ3He_xx33jLJ-ZjLg2N7rOz71fAfrdBUAR
+bBFYEVz5gugZzfXd8OXFQXuTbWh-fB9awWWtvmOvLpfL9adJ_iznjdY2JBOkd0vmaf-c_zk7mEbZ
+fHG4gClakINT-lvUB4tGwavB_NqQRnWQ_7Dy0sZbY4lot-hqL-OCiIhWdeWxx73j-fuucddmxeym
+4z32uE9MRJTNAdRSWGD1uSZLJDsQ9066v4CLBmJtUhnHQMTn00CsFeYaBUOgjO1DqxnPT7bJ3K95
+AVwul_tvEfdZjVOIM5a-pnovmhfxMcYDxfdH2XxxUDehLWpBirfLPhK6aMx3QUnm1gbIKf8aeDcL
+2tVLKvOCiIhWdUVE5LHHg8TLatm45uNJdtPxHnvcN87mC9t7v1NaDoiFAMp3EC4SIOHHF0R9ZLtW
+LD5fGCPh9x3gbQtfnnPsXwJeORCXy_VyCUk-Rt4q-4dmBFpDy0GykMdM9xCSCJo8AUT3GLAkuGSM
+oHYL_CLoa8DlxYzVDI3R1iaiVV0REVGZFx57PFgsdevxHns8yP2N_TEC8xBckPNpa-B2xAA01xnA
+MYCghSyAcuCiMaHNAlTfosX6yf2hfcl32qHztVGMcuy7X5fL5foXpAERsWeINTSmaYxA-1ruIh5l
+88UhaTKN5hxSFnBl8VDRYoUcotDW3HJfPFeUe6zYiYewW8ypzAsiIlrVFRGRxx4PEi_rZeMqjifZ
+Tcd77HHfOJuf-Lct7K7FCW0NyUjJD8lGIrqDwJGbRBvWAM3H8DYL2AjcSEMUV64p85R7D_uiwlqA
+tvZ17Uvicrlcf4s03_We3MZX_ZiUPtoams9LDkq2MN2r5I5BGEEZJSqBy--l_GseoHZ4Wu4pNYnV
+g8_NnplWdUVERGVeeOzxYLHUrcd77HHv_yu9U3qs9NQYU1J4w-vI-pxfqfkpurvYhAZcPhGCDiI9
+Ag8C27WFCiiLI3PX9o5Ajv4l0GO5uFwulyvu4xJq0nMtpqT4Le_DniXsNb5JhnBon3QPByNoooUl
+7WVRUiAs38n5r3mQcn8yd5ljSqFl7rF9PMyJ6iWVeUFERKu6IiLy2ONB4vEk_9bxHnvcO0Yeq0Eu
+1ftT_2jPck30b-GlAWCts4Qveof6aGBGRdQK0xe_XcCJxqYUWMaxQ0sBs8vlcrlszx2CFZr3t3m2
+_GnkN8rmi4MKIwsYGmg1MMcAORRo24xBecZAbe3bqo2h3eKrT5kXRES0qiuPPfbY4386JiLK5gub
+M9_tGD85lAUP7yF4JMHlszbGapPvu0JTKmUeDZbyX76Lxdrcsk-qXlwul8tl_7zlwV39VWNEyrNk
+BGKkolE2XxxMgmsToYnRPOhZe39tyXXRIfM9p_w1JY7scbeYU5kXRES0qisiIo89HiReVsvGXRtP
+spuO99jjvnGWz5rc0Hh1TVbEeIY4GXtPRPcXLyTB0USI9rINLYqKZhVwqALz9WPzSkDLvLW9yLm1
+PV7z0rhcLtffJumx-L_tn2r9LS5Zz2icZJ_R6xHAEi48KW0w2ohGfwmuVBgNBSptzbA-1F8Dasr_
+UB20PZ1yWNUVERGVeeGxx4PFUrce77HHve_v5rVdGKH1j-m6xknZF81lMPYIYDSJlhR6Z9Hf_h8C
+sDGIy34p6-M9aAVEByDrkLLHhzlRvexfB5fL5fobJWGLPDeFAyl90FronYQwYqLGQ6YjgBU6m4Ml
+7TVQWwkPeThasSV4ZWFi0LSAK9_l7hHUu8wLIiJa1ZXHHg8WS916vMceDxGrft6GKams0OAu17N4
+h4AP1j8CWJtMToQSkf21PmjzKe1aMVKLHQOlBmFtjHYIKNb20ubSuFwu178u5K0xP28zN-rX-Jq3
+o7UDEzlPlb6jbL44RMmvAUjrL2HeBaBDyMof5ZiyH7T3LntiY3aLr7FlXhAR0aquPPa4d7x-3zWu
+3ayY3XS8xx73iYmIsvnJo4dmSIxvKf0RcC1GCCbeXwwMHRDBNarL-hbMYoUbEtBWcVOKxfvyfzle
+A7u1j6H26HK5XH_zpKe28dkUPiCPt3iA-J_DWDJTcofpCOAYNOWkaGI0T6xIqF0r5hBgDrnEIGrV
+QtuTBWtrH6d8yrwgIqJVXXns8WCx1K3He_xx7zjFb9vCPObrFoglJyQXhbervDwDWCYgN2mBWANa
+CtRjxWvT1xqPCmsVFB2AtierzdoHn7dett_by_Vy-Suy-LbLPBrItfeyD_JELGcJbCIaZfPFwYSl
+XFCjOyqOBaVbSuaRcqAp_XYZA7RbfI0p84KIiFZ15bHHveP9_65x12bF7KbjPfa4T0xElM0Xtrd2
+ZQviU_y-zdoJ-Lu-ACwHVCw5SX75zlo8tqG_wEY5o5y0XBGw5Zwyv5R8Ew7F5XK5XMBbER-aeKg2
+TrZp-4gnnIEyZ40Vp-YjgDWwoo1qQLNAjQqkAblLUVMgjvJEfbVxqTWKPSt1KfOCiIhWdeWxx4PF
+40n2reM99niIuBcfUvw81dctv49BGPS9u_hkJYCovll8-RCotYJYQEbvUwuNNh3aeZ6oryyanFPm
+abXFntn82XzxddFcLpfLRau6oiyfXXpmWyG2SO_WTLA8Gz0jziRwYpTNFwcIJZ6wBuHY5tAcGjit
+90MIrSHbtDx4fdB-ylwJNdjVS--qXC6Xi_gIX81n_zLDmsfydTk2xkuUP4PwEcCxgRZMEOmHKtJQ
+kIzl1nXvKWBNzRNoMpvRvPpN02xL29208f86faHn7ctF_8fA7W56ngONbfM_RfV2Sfl0Zj6jGCnf
+-qJ6_pPq7ZLe63cqyh-nNqsvn1frn-r_O4T2Ep75f9CMdrSk7Mus6i3t8inNaEdVvaddfjzD0E-7
+5-OF9eX8_XRG_fbXOUZjed_Qr9wTr3t4DvP_XhK9TMdUbve0Yv8v2z0951t6raeN90TUeD5-XuMd
+FeWPRpv8bvg3FbQofpzb0TfE24r8kap6fW7nCn207_jXbjLMhWkDJctzYjAJbTFQpYAr1ucavGgL
+1JT6tWFgpFZ36iHwAfwd7xuew886MJ6k1sbXkBvSYtmO_st8rQORe5ZF1uLUfco8UY1O-2-vxw88
+mzQN5cNw59XvxkcfPngOYg2uH--hp8EXmYsKjwT48n4axD--GQQm_YTq7bLRxvufzVxAXsI13-7C
+41j7d0H3nBfYi6xbPp3RjHaf1yZANAAwwHdJ2fkZicNXzhfy4ZAOeUr48rX5u3q7PP_Hcwt9A3D5
+fmfTZ5rRjn7M6BO2q_mY9uOailO_L9MxzU7w5ZIgRgp3_HX60vhu5HdARPS8-eqz3U2pyB8b3xDv
+H_C73U0pm-w4-weQS4Bz-czeLz0BeUZMyL_kN8X8XPohb_feqfmu5c2xXGJeKschNqC6xfJEeVle
+jLwa8RJxxuLEKR5l88XBpLwGGY3_EmjfKS1-BF60f22-seeUvPhaytjXh03DFLghcJOR72Qf610w
+IAnicbW6AJmlANxg1hqI8_2vxrwI1AG27-U7TfKJCW5tDtku_6AxMrdYe_wdeh9iLWf5PgAsQC60
+BUkAcsBq7wIIOUhlP2s_nhefi_cmocvXlnV5pgn92P6m6WZML9s9vUzHVG73tJvtKFtmn6AN7Qi_
+4fn3mOgx38O6yvtf5I9U1Wv4Tvvn34uE9e79N2WTHw04a-q1m6R7RIpnxXwq1fc0yPTxuDa5tF2j
+KxOsXFDesXcI9hYnmI4AjgEBLWIVyiq_tUbby2RtzlozNndqjl0uYWyO0-vfjw_fBsM-aATbFHUd
+3wXEFnw06CBocsiEOAA_zMnn4xCIQfG-KlkfDuM2gNX_OQxTxvA_oa6p6yNIo-_wz-P130zPUOUw
+XuZbmtXH_4rgewbiAwYw_g4WxQ_aV79N8AbIymfepkn7vn7tJv1A08YrLWikwKItcFO8OgW8mmd3
+qVsKXNvMJfnShn9CRwDHQGRtKBXK15SWu3bJ2lzqGLRjNep4YRc-M9pWK-jR8w9biy3ApsI7BZgI
+nOg-1l__a4AcvOfgRbDV_qD_GtSvDVht76EuAWybzZQeHra02UxpP65pl0_T4ckBjkDJ2zSQpoAX
+AZeP5zXX4DtbZlSdAMvhu2L-ErwSwvtxTZPySb3vse9Iwlm_s5RNftDu-Tec92Wyopf38gvAXf0t
+1YdSxyDvTvXxFD6kQrkDvFpDt603I9bJ2vH6tQFzA8DagtZBpYDHKm7qYbW9DG0vYpsc234sbS6j
+aF-8zGhfZ1TV6wtzSAVoV7Ci9xroUubQnmNjODQCSDSApYCzbf_usoCj5SRzC_D9UIBR_A_g2eXT
+C1gHQBJRA5IhTgV3ah8N7Pw-APlzb6dn_b_kjKabL5BKsKJ21Gf7sFfPFX0-1rMUB7MG4wDh0F-O
+ewZwF7ikwCnVlyVMus6bAtLYPLGxfdnQ1ZtT95DCTyXPI4DRoaRMngqXlGJ0kVXQthcMzY3maFng
+5FqKPuVLSfP1rgFgzVCGhIUFBw4JNE7rH-p_xGXx0MgZgTC0VavfNMknEFAWSK09fYdQvrI2Ie8l
+ZZTVW9rl008gIfgGPTwcIYBAqD0jmKL3n-mc8ovNH-7Dvjh05XsNvjPa0WYzvdjvy3ZPFRHtZjvK
+lhmtpmMTwhaAAzw5YDmQOVw1UMtxMfgi-dpNunuc9r4P2FK9qUuufeDWhxHWPF3mDTwITLAY02Kd
+u0ZHPpkGtCHgK0HP10MbtuaQuYb28M6CsvXP5_Dj5L981g5N1gfNw_IP_I7zXS-45ttf8JmDIZj-
+JxBOfcLzGbbin49rrMf6hfGhbwDOqtrAMfV2eTHfJD8aFZ8rGH94Dms19nVaD_07Fls17CoOBA7f
+kOsnjE75ZvWWXusjfMvtnpaz3RlGH-HDw5bK7f54pTZf5z_jXQPGGoglZPk4DtSwd60fXyu0Bfgu
+KWucZz392TgzdNYcvuV2T8-5cZ8v0zGtpuPGXgOEw3PQflyb5-C8fYHfToBpgHN4J_Fb5I_Ntg8H
+fZ0e5ySiM3yzyY-PMeHX2ehjPik9D3kY6it9UfPIVD-X1pPMkO2WR6IxqVzQ-NnKU1tD8iCFMXKP
+ch02-xHAFsj4ewu6MaBacRuoaYXWCqC914DK_6E4dhnkWO0SWBfg-_Y3zne0r7OzOfCPXpqDBDM3
+PvTMoRYMsSwezuDizxBaDChIErocOBpweTuHLc_9AS0GXp6rnC9AgufF94TqImE_FIzP9eR7PUEu
+q7e02UzptZ7Sy3RML9s9raZjypZZI54ts0-ovGz3tB-XtNlML8DJYwn-TxCe9iTHBSFILyk7j5dr
+WWM4ePkd4OcSFOC7mo7ptZ42QBvaOXjDc_rd5NCVsXyHVNXri-4B6gG8sTXr7ZJ_Zu9p4LC8TgML
+8h0ENt6uQTIGOwQaOVfM19FYubcuXED7QPPH2CO5IX_SMYgZ8h2b-whgBFQNZgjCGvmtYqMLZIEt
+VmR5_Ahw2sVFF0qOsw5Rg65Wx4SP6eeuoHHeNEYJ2Wm2vQBxipFcgGU6O4_TzxJw_fZXA3YIStxo
+JVC5Gcu2GLzO0AzjeF4CasiQeR__fwT7lHcxIPNzatRj__uzjgG6082YxvucXrb7M4SWs90Zujzm
+72f18ZyqugkiDsPP85r_PML4BPvP9QWoAhQlUOV_A4gDQOUYCV8O2nq7bKzPcwsqAuxO-6vp_FyH
+EHMgc_3yYz2s_8S-mUXx43w2-JykXqdfkA3fGO_73U0pm-xoAFqOQfexldfxftJzuecgeFqQS4GT
+liNaF41DOWnPcmwsB0sIiGg_7RlxQ-4knOUYtHemI4AlfBHMOPE1okv4WJtCRdYgZhWK54fyti4T
+Omw0D7rEsYuozRM5kNDv7X1L_-rLvDhc5X8wFWn4Fx_-AowYSCSMNZBJaAX4BsMNMX93AU-W771_
+b857WovDG4GEgxntEY2J7RvNhfYujZkbvoTkeJ9-wvThYUvlCa4BNtkyO8e72a4Rh-er6ZgeHrY0
+q6eU1c0zDwDktUBtAabyDkh4Nup-6otgzcdxuIY_fL3PuyTWleD90Mt0-FmfAN7wPjynnBmC57z6
+3TgbdE6hH-q2AnjR2T9vjwDmbfJOql5n_ZzmuQieEg7cw_WzBTsNtFp_CFyWh8pcu4LYAn7M661_
+CLAanLX5lPyPANYAgcjPD9K6MOgA0SVJgZJ2aDxPVFB0cbS22MG0zVG72Il7H_dH40LmLv85kDXD
+JyLaFyWcs57_VKGdBGUJOwbWAGkOYwlRDgMO4Uk_uYD15-MJ6I2xAYoKmCVMEJhVkxTvLfBygw9n
+wWubT2e02UxpujnCsyCizeZ4Xh8gDgAqTvELg_0HrJezHZUnKJfbPc1O78b7nKr6CCQJugBdCVgE
+wADKUC-_HPpafRrzs7MIfc7ndFr7825Mf9L2oQnTD7hy8EqV2-0npM_f5-i4Z_v85PeifU9onPZt
+VfWaptmWdu_-L8ZxOKM7mexzGoQQYDSflR4ugaHNleLlMe-UGCFZgzgk50G5ab5vgV2rGdqnZIzM
+NYUPyn6OAEZFlLDl7zXgtdmUVTg0NiVGBY_BV7vobXPUPgp5yWKX5v9f6u-HB9pWK3qaYJBK4KJ3
+yFys-txYLBhLw44Zi4RqgHEw6dDn04xZP8vM_Rx8Xj6XhLMEtgbm0E-OIefRamWZ9RkAD-tPeAbw
+BuBuNtMzeKtT-MJgu5vtzjAO4A1AfnjY0nifN0B33vOpXhy6oU89-XkeE84jPAeIy3ZetxiIG_cA
+5gt1DW2rE3Q5XK3289nQe-QuhvNYFEcwyrsvz4uPk98P_pYCcHfvvymb-IBQlvdPNWrkERwGyE_l
+z1hemOKPVm7I-621ESO0f80rNWmwl7XS6hFjk8ZHy8etml8AWMKLT4aAiwrfpjAIZrGxWiwLgmIL
+vOiwYpcc5aT1j7UDjfMdbXdTet6_wPcSqgi4EtIaDOQ-MiL_LoAuRTGzCQYcAMrNM5-O6L0_muon
+LBiYJaglNM-GfmrnUJB9NeAGaPGcwt6l8VpCQP6A2252BE51Am5QAG8BYtn_-_nPIJ4tj3us6n0D
+whKOoU2Np7PGOwTe8IzALdt57evtkma0O5719hfl0xnl219UT3-SbPrcgO2HXrZ7WuZbetnuGxBG
+2uXTONxOmleXYGwjCeGP-_1uSlW9PkNY_374fYr6HvIM5EdojPRC-i-brPlSPNgCsTYXXy-GFYsT
+Wp4pkETzasCWtUPM0OaRfZn_Bx2IOPA45MSEAAAAEHRFWHRMb2RlUE5HADIwMTEwMjIx41m2wQAA
+AABJRU5ErkJggg==
+:: main.lua
+--[[pod_format="raw",created="2024-03-23 23:46:10",modified="2024-03-24 06:50:04",revision=117]]
+-- Generated by Haxe 4.3.3
+local _hx_hidden = {__id__=true, hx__closures=true, super=true, prototype=true, __fields__=true, __ifields__=true, __class__=true, __properties__=true, __fields__=true, __name__=true}
+
+_hx_array_mt = {
+    __newindex = function(t,k,v)
+        local len = t.length
+        t.length =  k >= len and (k + 1) or len
+        rawset(t,k,v)
+    end
+}
+
+function _hx_is_array(o)
+    return type(o) == "table"
+        and o.__enum__ == nil
+        and getmetatable(o) == _hx_array_mt
+end
+
+
+
+function _hx_tab_array(tab, length)
+    tab.length = length
+    return setmetatable(tab, _hx_array_mt)
+end
+
+
+
+function _hx_print_class(obj, depth)
+    local first = true
+    local result = ''
+    for k,v in pairs(obj) do
+        if _hx_hidden[k] == nil then
+            if first then
+                first = false
+            else
+                result = result .. ', '
+            end
+            if _hx_hidden[k] == nil then
+                result = result .. k .. ':' .. _hx_tostring(v, depth+1)
+            end
+        end
+    end
+    return '{ ' .. result .. ' }'
+end
+
+function _hx_print_enum(o, depth)
+    if o.length == 2 then
+        return o[0]
+    else
+        local str = o[0] .. "("
+        for i = 2, (o.length-1) do
+            if i ~= 2 then
+                str = str .. "," .. _hx_tostring(o[i], depth+1)
+            else
+                str = str .. _hx_tostring(o[i], depth+1)
+            end
+        end
+        return str .. ")"
+    end
+end
+
+function _hx_tostring(obj, depth)
+    if depth == nil then
+        depth = 0
+    elseif depth > 5 then
+        return "<...>"
+    end
+
+    local tstr = _G.type(obj)
+    if tstr == "string" then return obj
+    elseif tstr == "nil" then return "null"
+    elseif tstr == "number" then
+        if obj == _G.math.POSITIVE_INFINITY then return "Infinity"
+        elseif obj == _G.math.NEGATIVE_INFINITY then return "-Infinity"
+        elseif obj == 0 then return "0"
+        elseif obj ~= obj then return "NaN"
+        else return _G.tostring(obj)
+        end
+    elseif tstr == "boolean" then return _G.tostring(obj)
+    elseif tstr == "userdata" then
+        local mt = _G.getmetatable(obj)
+        if mt ~= nil and mt.__tostring ~= nil then
+            return _G.tostring(obj)
+        else
+            return "<userdata>"
+        end
+    elseif tstr == "function" then return "<function>"
+    elseif tstr == "thread" then return "<thread>"
+    elseif tstr == "table" then
+        if obj.__enum__ ~= nil then
+            return _hx_print_enum(obj, depth)
+        elseif obj.toString ~= nil and not _hx_is_array(obj) then return obj:toString()
+        elseif _hx_is_array(obj) then
+            if obj.length > 5 then
+                return "[...]"
+            else
+                local str = ""
+                for i=0, (obj.length-1) do
+                    if i == 0 then
+                        str = str .. _hx_tostring(obj[i], depth+1)
+                    else
+                        str = str .. "," .. _hx_tostring(obj[i], depth+1)
+                    end
+                end
+                return "[" .. str .. "]"
+            end
+        elseif obj.__class__ ~= nil then
+            return _hx_print_class(obj, depth)
+        else
+            local buffer = {}
+            local ref = obj
+            if obj.__fields__ ~= nil then
+                ref = obj.__fields__
+            end
+            for k,v in pairs(ref) do
+                if _hx_hidden[k] == nil then
+                    _G.table.insert(buffer, _hx_tostring(k, depth+1) .. ' : ' .. _hx_tostring(obj[k], depth+1))
+                end
+            end
+
+            return "{ " .. table.concat(buffer, ", ") .. " }"
+        end
+    else
+        _G.error("Unknown Lua type", 0)
+        return ""
+    end
+end
+
+local function _hx_obj_newindex(t,k,v)
+    t.__fields__[k] = true
+    rawset(t,k,v)
+end
+
+local _hx_obj_mt = {__newindex=_hx_obj_newindex, __tostring=_hx_tostring}
+
+local function _hx_a(...)
+  local __fields__ = {};
+  local ret = {__fields__ = __fields__};
+  local max = select('#',...);
+  local tab = {...};
+  local cur = 1;
+  while cur < max do
+    local v = tab[cur];
+    __fields__[v] = true;
+    ret[v] = tab[cur+1];
+    cur = cur + 2
+  end
+  return setmetatable(ret, _hx_obj_mt)
+end
+
+local function _hx_e()
+  return setmetatable({__fields__ = {}}, _hx_obj_mt)
+end
+
+local function _hx_o(obj)
+  return setmetatable(obj, _hx_obj_mt)
+end
+
+local function _hx_new(prototype)
+  return setmetatable({__fields__ = {}}, {__newindex=_hx_obj_newindex, __index=prototype, __tostring=_hx_tostring})
+end
+
+function _hx_field_arr(obj)
+    local res = {}
+    local idx = 0
+    if obj.__fields__ ~= nil then
+        obj = obj.__fields__
+    end
+    for k,v in pairs(obj) do
+        if _hx_hidden[k] == nil then
+            res[idx] = k
+            idx = idx + 1
+        end
+    end
+    return _hx_tab_array(res, idx)
+end
+
+local _hxClasses = {}
+local Int = _hx_e();
+local Dynamic = _hx_e();
+local Float = _hx_e();
+local Bool = _hx_e();
+local Class = _hx_e();
+local Enum = _hx_e();
+
+-- https://www.lexaloffle.com/bbs/?tid=140784
+function require_lua(name)
+    if _modules == nil then
+        _modules={}
+    end
+ 
+    local already_imported = _modules[name]
+    if already_imported ~= nil then
+        return already_imported
+    end
+ 
+    local filename = fullpath(name..'.lua')
+    local src = fetch(filename) 
+ 
+    if (type(src) ~= "string") then 
+        notify("could not include "..filename)
+        stop()
+        return
+    end 
+ 
+    -- https://www.lua.org/manual/5.4/manual.html#pdf-load
+    -- chunk name (for error reporting), mode ("t" for text only -- no binary chunk loading), _ENV upvalue
+    -- @ is a special character that tells debugger the string is a filename
+    local func,err = load(src, "@"..filename, "t", _ENV)
+    -- syntax error while loading
+    if (not func) then 
+        -- printh("** syntax error in "..filename..": "..tostr(err))
+        --notify("syntax error in "..filename.."\n"..tostr(err))
+        send_message(3, {event="report_error", content = "*syntax error"})
+        send_message(3, {event="report_error", content = tostr(err)})
+ 
+        stop()
+        return
+    end
+ 
+    local module = func()
+    _modules[name]=module
+
+    return module
+end
+
+function pow(x,a)
+  return x ^ a
+end
+
+function xpcall_lua(fn, err)
+    --[[local function fn_err(...)
+        return err(debug.traceback(...))
+    end
+    return pcall(fn_err)--]]
+    -- TODO: actually do error stuff.
+    fn()
+    return true
+end
+
+function tableMerge(t1, t2)
+    for k,v in pairs(t2) do
+        if type(v) == "table" then
+            if type(t1[k] or false) == "table" then
+                tableMerge(t1[k] or {}, t2[k] or {})
+            else
+                t1[k] = v
+            end
+        else
+            t1[k] = v
+        end
+    end
+    return t1
+end
+
+-- mmm i sure love messing with varibles i probably shouldnt be!
+_G = tableMerge(_G, {
+    xpcall = xpcall_lua,
+    require = require_lua
+})
+
+_G.math.pow = pow
+
+package = {
+    loaded = {
+
+    }
+}
+local Array = _hx_e()
+local Ball = _hx_e()
+local GameInfo = _hx_e()
+local Main = _hx_e()
+local Math = _hx_e()
+local Player = _hx_e()
+local String = _hx_e()
+local Std = _hx_e()
+__haxe_Exception = _hx_e()
+__haxe_NativeStackTrace = _hx_e()
+__haxe_ValueException = _hx_e()
+__haxe_exceptions_PosException = _hx_e()
+__haxe_exceptions_NotImplementedException = _hx_e()
+__haxe_iterators_ArrayIterator = _hx_e()
+__haxe_iterators_ArrayKeyValueIterator = _hx_e()
+__lua_Boot = _hx_e()
+__lua_UserData = _hx_e()
+__lua_Thread = _hx_e()
+__picotron_Window = _hx_e()
+
+local _hx_bind, _hx_bit, _hx_staticToInstance, _hx_funcToField, _hx_maxn, _hx_print, _hx_apply_self, _hx_box_mr, _hx_bit_clamp, _hx_table, _hx_bit_raw
+local _hx_pcall_default = {};
+local _hx_pcall_break = {};
+
+Array.new = function() 
+  local self = _hx_new(Array.prototype)
+  Array.super(self)
+  return self
+end
+Array.super = function(self) 
+  _hx_tab_array(self, 0);
+end
+Array.__name__ = true
+Array.prototype = _hx_e();
+Array.prototype.concat = function(self,a) 
+  local _g = _hx_tab_array({}, 0);
+  local _g1 = 0;
+  local _g2 = self;
+  while (_g1 < _g2.length) do _hx_do_first_1 = false;
+    
+    local i = _g2[_g1];
+    _g1 = _g1 + 1;
+    _g:push(i);
+  end;
+  local ret = _g;
+  local _g = 0;
+  while (_g < a.length) do _hx_do_first_1 = false;
+    
+    local i = a[_g];
+    _g = _g + 1;
+    ret:push(i);
+  end;
+  do return ret end
+end
+Array.prototype.join = function(self,sep) 
+  local tbl = ({});
+  local _g_current = 0;
+  local _g_array = self;
+  while (_g_current < _g_array.length) do _hx_do_first_1 = false;
+    
+    _g_current = _g_current + 1;
+    local i = _g_array[_g_current - 1];
+    _G.table.insert(tbl, Std.string(i));
+  end;
+  do return _G.table.concat(tbl, sep) end
+end
+Array.prototype.pop = function(self) 
+  if (self.length == 0) then 
+    do return nil end;
+  end;
+  local ret = self[self.length - 1];
+  self[self.length - 1] = nil;
+  self.length = self.length - 1;
+  do return ret end
+end
+Array.prototype.push = function(self,x) 
+  self[self.length] = x;
+  do return self.length end
+end
+Array.prototype.reverse = function(self) 
+  local tmp;
+  local i = 0;
+  while (i < Std.int(self.length / 2)) do _hx_do_first_1 = false;
+    
+    tmp = self[i];
+    self[i] = self[(self.length - i) - 1];
+    self[(self.length - i) - 1] = tmp;
+    i = i + 1;
+  end;
+end
+Array.prototype.shift = function(self) 
+  if (self.length == 0) then 
+    do return nil end;
+  end;
+  local ret = self[0];
+  if (self.length == 1) then 
+    self[0] = nil;
+  else
+    if (self.length > 1) then 
+      self[0] = self[1];
+      _G.table.remove(self, 1);
+    end;
+  end;
+  local tmp = self;
+  tmp.length = tmp.length - 1;
+  do return ret end
+end
+Array.prototype.slice = function(self,pos,_end) 
+  if ((_end == nil) or (_end > self.length)) then 
+    _end = self.length;
+  else
+    if (_end < 0) then 
+      _end = _G.math.fmod((self.length - (_G.math.fmod(-_end, self.length))), self.length);
+    end;
+  end;
+  if (pos < 0) then 
+    pos = _G.math.fmod((self.length - (_G.math.fmod(-pos, self.length))), self.length);
+  end;
+  if ((pos > _end) or (pos > self.length)) then 
+    do return _hx_tab_array({}, 0) end;
+  end;
+  local ret = _hx_tab_array({}, 0);
+  local _g = pos;
+  local _g1 = _end;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    ret:push(self[i]);
+  end;
+  do return ret end
+end
+Array.prototype.sort = function(self,f) 
+  local i = 0;
+  local l = self.length;
+  while (i < l) do _hx_do_first_1 = false;
+    
+    local swap = false;
+    local j = 0;
+    local max = (l - i) - 1;
+    while (j < max) do _hx_do_first_2 = false;
+      
+      if (f(self[j], self[j + 1]) > 0) then 
+        local tmp = self[j + 1];
+        self[j + 1] = self[j];
+        self[j] = tmp;
+        swap = true;
+      end;
+      j = j + 1;
+    end;
+    if (not swap) then 
+      break;
+    end;
+    i = i + 1;
+  end;
+end
+Array.prototype.splice = function(self,pos,len) 
+  if ((len < 0) or (pos > self.length)) then 
+    do return _hx_tab_array({}, 0) end;
+  else
+    if (pos < 0) then 
+      pos = self.length - (_G.math.fmod(-pos, self.length));
+    end;
+  end;
+  len = Math.min(len, self.length - pos);
+  local ret = _hx_tab_array({}, 0);
+  local _g = pos;
+  local _g1 = pos + len;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    ret:push(self[i]);
+    self[i] = self[i + len];
+  end;
+  local _g = pos + len;
+  local _g1 = self.length;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    self[i] = self[i + len];
+  end;
+  local tmp = self;
+  tmp.length = tmp.length - len;
+  do return ret end
+end
+Array.prototype.toString = function(self) 
+  local tbl = ({});
+  _G.table.insert(tbl, "[");
+  _G.table.insert(tbl, self:join(","));
+  _G.table.insert(tbl, "]");
+  do return _G.table.concat(tbl, "") end
+end
+Array.prototype.unshift = function(self,x) 
+  local len = self.length;
+  local _g = 0;
+  local _g1 = len;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    self[len - i] = self[(len - i) - 1];
+  end;
+  self[0] = x;
+end
+Array.prototype.insert = function(self,pos,x) 
+  if (pos > self.length) then 
+    pos = self.length;
+  end;
+  if (pos < 0) then 
+    pos = self.length + pos;
+    if (pos < 0) then 
+      pos = 0;
+    end;
+  end;
+  local cur_len = self.length;
+  while (cur_len > pos) do _hx_do_first_1 = false;
+    
+    self[cur_len] = self[cur_len - 1];
+    cur_len = cur_len - 1;
+  end;
+  self[pos] = x;
+end
+Array.prototype.remove = function(self,x) 
+  local _g = 0;
+  local _g1 = self.length;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    if (self[i] == x) then 
+      local _g = i;
+      local _g1 = self.length - 1;
+      while (_g < _g1) do _hx_do_first_2 = false;
+        
+        _g = _g + 1;
+        local j = _g - 1;
+        self[j] = self[j + 1];
+      end;
+      self[self.length - 1] = nil;
+      self.length = self.length - 1;
+      do return true end;
+    end;
+  end;
+  do return false end
+end
+Array.prototype.contains = function(self,x) 
+  local _g = 0;
+  local _g1 = self.length;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    if (self[i] == x) then 
+      do return true end;
+    end;
+  end;
+  do return false end
+end
+Array.prototype.indexOf = function(self,x,fromIndex) 
+  local _end = self.length;
+  if (fromIndex == nil) then 
+    fromIndex = 0;
+  else
+    if (fromIndex < 0) then 
+      fromIndex = self.length + fromIndex;
+      if (fromIndex < 0) then 
+        fromIndex = 0;
+      end;
+    end;
+  end;
+  local _g = fromIndex;
+  local _g1 = _end;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    if (x == self[i]) then 
+      do return i end;
+    end;
+  end;
+  do return -1 end
+end
+Array.prototype.lastIndexOf = function(self,x,fromIndex) 
+  if ((fromIndex == nil) or (fromIndex >= self.length)) then 
+    fromIndex = self.length - 1;
+  else
+    if (fromIndex < 0) then 
+      fromIndex = self.length + fromIndex;
+      if (fromIndex < 0) then 
+        do return -1 end;
+      end;
+    end;
+  end;
+  local i = fromIndex;
+  while (i >= 0) do _hx_do_first_1 = false;
+    
+    if (self[i] == x) then 
+      do return i end;
+    else
+      i = i - 1;
+    end;
+  end;
+  do return -1 end
+end
+Array.prototype.copy = function(self) 
+  local _g = _hx_tab_array({}, 0);
+  local _g1 = 0;
+  local _g2 = self;
+  while (_g1 < _g2.length) do _hx_do_first_1 = false;
+    
+    local i = _g2[_g1];
+    _g1 = _g1 + 1;
+    _g:push(i);
+  end;
+  do return _g end
+end
+Array.prototype.map = function(self,f) 
+  local _g = _hx_tab_array({}, 0);
+  local _g1 = 0;
+  local _g2 = self;
+  while (_g1 < _g2.length) do _hx_do_first_1 = false;
+    
+    local i = _g2[_g1];
+    _g1 = _g1 + 1;
+    _g:push(f(i));
+  end;
+  do return _g end
+end
+Array.prototype.filter = function(self,f) 
+  local _g = _hx_tab_array({}, 0);
+  local _g1 = 0;
+  local _g2 = self;
+  while (_g1 < _g2.length) do _hx_do_first_1 = false;
+    
+    local i = _g2[_g1];
+    _g1 = _g1 + 1;
+    if (f(i)) then 
+      _g:push(i);
+    end;
+  end;
+  do return _g end
+end
+Array.prototype.iterator = function(self) 
+  do return __haxe_iterators_ArrayIterator.new(self) end
+end
+Array.prototype.keyValueIterator = function(self) 
+  do return __haxe_iterators_ArrayKeyValueIterator.new(self) end
+end
+Array.prototype.resize = function(self,len) 
+  if (self.length < len) then 
+    self.length = len;
+  else
+    if (self.length > len) then 
+      local _g = len;
+      local _g1 = self.length;
+      while (_g < _g1) do _hx_do_first_1 = false;
+        
+        _g = _g + 1;
+        local i = _g - 1;
+        self[i] = nil;
+      end;
+      self.length = len;
+    end;
+  end;
+end
+
+Array.prototype.__class__ =  Array
+
+Ball.new = function(x,y,xVel,yVel) 
+  local self = _hx_new(Ball.prototype)
+  Ball.super(self,x,y,xVel,yVel)
+  return self
+end
+Ball.super = function(self,x,y,xVel,yVel) 
+  self.canMove = false;
+  self.x = x;
+  self.y = y;
+  self.xVel = xVel;
+  self.yVel = yVel;
+end
+Ball.__name__ = true
+Ball.prototype = _hx_e();
+Ball.prototype.resetPos = function(self) 
+  self.x = (GameInfo.windowWidth / 2) - (Ball.ballWidth / 2);
+  self.y = (GameInfo.windowHeight / 2) - (Ball.ballHeight / 2);
+  local tmp = self;
+  tmp.x = tmp.x - 3;
+  local tmp = self;
+  tmp.y = tmp.y - 4;
+end
+Ball.prototype.draw = function(self) 
+  spr(2, self.x, self.y);
+end
+Ball.prototype.isOutOfBounds = function(self) 
+  if (not ((self.x + Ball.ballWidth) < 0)) then 
+    do return self.x > GameInfo.windowWidth end;
+  else
+    do return true end;
+  end;
+end
+Ball.prototype.isAbleToCollide = function(self,plrIndex,plrY) 
+  local doColAtY;
+  local plrIndex = plrIndex;
+  if (plrIndex) == 1 then 
+    doColAtY = self.x < Player.playerWidth;
+  elseif (plrIndex) == 2 then 
+    doColAtY = (self.x + Ball.ballWidth) > (GameInfo.windowWidth - Player.playerWidth);else
+  doColAtY = false; end;
+  local intY = Std.int(self.y);
+  local intPlrY = Std.int(plrY);
+  if (doColAtY and ((intY > intPlrY) and (intY < (intPlrY + Player.playerHeight)))) then 
+    do return not self:isOutOfBounds() end;
+  else
+    do return false end;
+  end;
+end
+Ball.prototype.update = function(self) 
+  if (self.canMove) then 
+    local tmp = self;
+    tmp.x = tmp.x + self.xVel;
+    local tmp = self;
+    tmp.y = tmp.y + self.yVel;
+    if (((self.y + Ball.ballHeight) > GameInfo.windowHeight) or (self.y < 0)) then 
+      self.yVel = -self.yVel;
+      sfx(0);
+    end;
+    local players = Main.getPlayers();
+    local _g = 0;
+    while (_g < players.length) do _hx_do_first_1 = false;
+      
+      local player = players[_g];
+      _g = _g + 1;
+      if (self:isAbleToCollide(player.player, player.y)) then 
+        local shouldActuallyChangeSpeed = true;
+        if (player.player == 1) then 
+          shouldActuallyChangeSpeed = self.xVel < 0;
+        else
+          shouldActuallyChangeSpeed = self.xVel > 0;
+        end;
+        if (shouldActuallyChangeSpeed) then 
+          self.xVel = -self.xVel;
+          local tmp = self;
+          tmp.yVel = tmp.yVel + player.curYSpeed;
+          if ((_G.math.ceil(self.yVel) == 0) or (_G.math.floor(self.yVel) == 0)) then 
+            self.yVel = (function() 
+              local _hx_1
+              if (_G.math.ceil(rnd(2)) == 1) then 
+              _hx_1 = 1; else 
+              _hx_1 = -1; end
+              return _hx_1
+            end )() * 3;
+          end;
+          if (self.yVel > Ball.maxYVel) then 
+            self.yVel = Ball.maxYVel;
+          else
+            if (self.yVel < -Ball.maxYVel) then 
+              self.yVel = -Ball.maxYVel;
+            end;
+          end;
+          sfx(1);
+        end;
+      end;
+    end;
+  end;
+end
+
+Ball.prototype.__class__ =  Ball
+
+GameInfo.new = {}
+GameInfo.__name__ = true
+
+Main.new = function() 
+  local self = _hx_new(Main.prototype)
+  Main.super(self)
+  return self
+end
+Main.super = function(self) 
+  self.isFlashingToPressButton = true;
+  self.plr2Hits = 0;
+  self.plr1Hits = 0;
+  _update = _hx_bind(self,self.Update);
+  _draw = _hx_bind(self,self.Draw);
+  _init = _hx_bind(self,self.Init);
+  __picotron_Window.makeWindow(GameInfo.windowWidth, GameInfo.windowHeight, "PicoPong");
+end
+Main.__name__ = true
+Main.main = function() 
+  Main.new();
+end
+Main.getPlayers = function() 
+  do return _hx_tab_array({[0]=Main.player1, Main.player2}, 2) end;
+end
+Main.prototype = _hx_e();
+Main.prototype.Init = function(self) 
+  Main.ball = self:makeBall(false);
+  Main.player1 = Player.new(0, 0, true, 1);
+  Main.player1:resetYPos();
+  Main.player2 = Player.new(GameInfo.windowWidth - Player.playerWidth, 0, false, 2);
+  Main.player2:resetYPos();
+  Main.ball:resetPos();
+end
+Main.prototype.makeEverythingMovable = function(self) 
+  Main.player1.canMove = true;
+  Main.player2.canMove = true;
+  Main.ball.canMove = true;
+end
+Main.prototype.makeEverythingImmovable = function(self) 
+  Main.player1.canMove = false;
+  Main.player2.canMove = false;
+  Main.ball.canMove = false;
+end
+Main.prototype.Draw = function(self) 
+  cls(0);
+  map(0, 0);
+  if (Main.player1 ~= nil) then 
+    Main.player1:draw();
+  end;
+  if (Main.player2 ~= nil) then 
+    Main.player2:draw();
+  end;
+  if (Main.ball ~= nil) then 
+    Main.ball:draw();
+  end;
+  self:drawHitsCounter(0, 0, self.plr1Hits);
+  self:drawHitsCounter(GameInfo.windowWidth - (#Std.string(self.plr2Hits) * 16), 0, self.plr2Hits);
+  if (self.isFlashingToPressButton) then 
+    if ((_G.math.fmod(t() * 10, 20)) <= 10) then 
+      local toPlayText = "PRESS Z TO PLAY";
+      local toPlayTextLength = #toPlayText * 5;
+      local textX = (GameInfo.windowWidth / 2) - (toPlayTextLength / 2);
+      rectfill(textX - 2, 0, (textX + toPlayTextLength) + 2, 9, 0);
+      local thing = toPlayText;
+      local x = textX;
+      local y = 1;
+      if (y == nil) then 
+        y = 0;
+      end;
+      if (x == nil) then 
+        x = 0;
+      end;
+      if (not __lua_Boot.__instanceof(thing, String)) then 
+        thing = Std.string(thing);
+      end;
+      print(thing, x, y, 7);
+    end;
+  end;
+end
+Main.prototype.drawHitsCounter = function(self,x,y,num) 
+  local numSplit = String.prototype.split(Std.string(num), "");
+  local _g = 0;
+  local _g1 = numSplit.length;
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local i = _g - 1;
+    local num = numSplit[i];
+    local counterX = x + (16 * i);
+    rectfill(x, y, x + ((i + 1) * 16), 16, 0);
+    spr(8 + Std.parseInt(num), counterX, y);
+  end;
+end
+Main.prototype.makeBall = function(self,playerGoaled) 
+  do return Ball.new(0, 0, (function() 
+    local _hx_1
+    if (playerGoaled) then 
+    _hx_1 = Ball.ballSpeed; else 
+    _hx_1 = -Ball.ballSpeed; end
+    return _hx_1
+  end )() * (1 + rnd(.05)), 0) end
+end
+Main.prototype.Update = function(self) 
+  if (self.isFlashingToPressButton and keyp("z")) then 
+    self.isFlashingToPressButton = false;
+    self:makeEverythingMovable();
+  end;
+  if (Main.player1 ~= nil) then 
+    Main.player1:update();
+  end;
+  if (Main.player2 ~= nil) then 
+    Main.player2:update();
+  end;
+  if (Main.ball ~= nil) then 
+    Main.ball:update();
+    local thing = GameInfo.windowWidth - (Main.ball.x + Ball.ballWidth);
+    local x = 0;
+    local y = 0;
+    local col = 7;
+    if (col == nil) then 
+      col = 7;
+    end;
+    if (y == nil) then 
+      y = 0;
+    end;
+    if (x == nil) then 
+      x = 0;
+    end;
+    if (not __lua_Boot.__instanceof(thing, String)) then 
+      thing = Std.string(thing);
+    end;
+    print(thing, x, y, col);
+  end;
+  if (Main.ball:isOutOfBounds() and Main.ball.canMove) then 
+    self:makeEverythingImmovable();
+    local playerGoaled = Main.ball.x > GameInfo.windowWidth;
+    if (not playerGoaled) then 
+      self.plr2Hits = self.plr2Hits + 1;
+      sfx(3);
+    else
+      self.plr1Hits = self.plr1Hits + 1;
+      sfx(2);
+    end;
+    Main.player1:resetYPos();
+    Main.player2:resetYPos();
+    Main.ball = self:makeBall(playerGoaled);
+    Main.ball:resetPos();
+    self.isFlashingToPressButton = true;
+  end;
+end
+
+Main.prototype.__class__ =  Main
+
+Math.new = {}
+Math.__name__ = true
+Math.isNaN = function(f) 
+  do return f ~= f end;
+end
+Math.isFinite = function(f) 
+  if (f > -_G.math.huge) then 
+    do return f < _G.math.huge end;
+  else
+    do return false end;
+  end;
+end
+Math.min = function(a,b) 
+  if (Math.isNaN(a) or Math.isNaN(b)) then 
+    do return (0/0) end;
+  else
+    do return _G.math.min(a, b) end;
+  end;
+end
+
+Player.new = function(x,y,isPlayer,player) 
+  local self = _hx_new(Player.prototype)
+  Player.super(self,x,y,isPlayer,player)
+  return self
+end
+Player.super = function(self,x,y,isPlayer,player) 
+  self.curYSpeed = 0;
+  self.canMove = false;
+  self.y = 0;
+  self.x = 0;
+  self.x = x;
+  self.y = y;
+  self.isPlayer = isPlayer;
+  self.player = player;
+end
+Player.__name__ = true
+Player.prototype = _hx_e();
+Player.prototype.draw = function(self) 
+  spr(1, self.x, self.y);
+end
+Player.prototype.tryMoveOnY = function(self,yMovement) 
+  local tmp = self;
+  tmp.y = tmp.y + yMovement;
+  if (self.y < 0) then 
+    self.y = 0;
+    self.curYSpeed = 0;
+  end;
+  if ((self.y + Player.playerHeight) > GameInfo.windowHeight) then 
+    self.y = GameInfo.windowHeight - Player.playerHeight;
+    self.curYSpeed = 0;
+  end;
+end
+Player.prototype.resetYPos = function(self) 
+  self.y = (GameInfo.windowHeight / 2) - (Player.playerHeight / 2);
+end
+Player.prototype.update = function(self) 
+  if (self.canMove) then 
+    if (self.isPlayer) then 
+      local isUpPressed = key("w");
+      local isDownPressed = key("s");
+      if (isUpPressed) then 
+        self:tryMoveOnY(-Player.playerSpeed);
+        self.curYSpeed = -Player.playerSpeed;
+      end;
+      if (isDownPressed) then 
+        self:tryMoveOnY(Player.playerSpeed);
+        self.curYSpeed = Player.playerSpeed;
+      end;
+      if (not isUpPressed and not isDownPressed) then 
+        self.curYSpeed = 0;
+      end;
+    else
+      local dif = (self.y + (Player.playerHeight / 2)) - (function() 
+        local _hx_1
+        if (Main.ball.xVel < 0) then 
+        _hx_1 = (GameInfo.windowHeight / 2) - (Player.playerHeight / 2); else 
+        _hx_1 = Main.ball.y; end
+        return _hx_1
+      end )();
+      local difNeeded = Player.playerHeight / 5;
+      if ((dif > difNeeded) or (dif < -difNeeded)) then 
+        local toMove = (function() 
+          local _hx_2
+          if (dif < 0) then 
+          _hx_2 = Player.cpuPlayerSpeed; else 
+          _hx_2 = -Player.cpuPlayerSpeed; end
+          return _hx_2
+        end )();
+        self:tryMoveOnY(toMove);
+      end;
+    end;
+  end;
+end
+
+Player.prototype.__class__ =  Player
+
+String.new = function(string) 
+  local self = _hx_new(String.prototype)
+  String.super(self,string)
+  self = string
+  return self
+end
+String.super = function(self,string) 
+end
+String.__name__ = true
+String.__index = function(s,k) 
+  if (k == "length") then 
+    do return _G.string.len(s) end;
+  else
+    local o = String.prototype;
+    local field = k;
+    if ((function() 
+      local _hx_1
+      if ((_G.type(o) == "function") and not ((function() 
+        local _hx_2
+        if (_G.type(o) ~= "table") then 
+        _hx_2 = false; else 
+        _hx_2 = o.__name__; end
+        return _hx_2
+      end )() or (function() 
+        local _hx_3
+        if (_G.type(o) ~= "table") then 
+        _hx_3 = false; else 
+        _hx_3 = o.__ename__; end
+        return _hx_3
+      end )())) then 
+      _hx_1 = false; elseif ((_G.type(o) == "string") and ((String.prototype[field] ~= nil) or (field == "length"))) then 
+      _hx_1 = true; elseif (o.__fields__ ~= nil) then 
+      _hx_1 = o.__fields__[field] ~= nil; else 
+      _hx_1 = o[field] ~= nil; end
+      return _hx_1
+    end )()) then 
+      do return String.prototype[k] end;
+    else
+      if (String.__oldindex ~= nil) then 
+        if (_G.type(String.__oldindex) == "function") then 
+          do return String.__oldindex(s, k) end;
+        else
+          if (_G.type(String.__oldindex) == "table") then 
+            do return String.__oldindex[k] end;
+          end;
+        end;
+        do return nil end;
+      else
+        do return nil end;
+      end;
+    end;
+  end;
+end
+String.indexOfEmpty = function(s,startIndex) 
+  local length = _G.string.len(s);
+  if (startIndex < 0) then 
+    startIndex = length + startIndex;
+    if (startIndex < 0) then 
+      startIndex = 0;
+    end;
+  end;
+  if (startIndex > length) then 
+    do return length end;
+  else
+    do return startIndex end;
+  end;
+end
+String.fromCharCode = function(code) 
+  do return _G.string.char(code) end;
+end
+String.prototype = _hx_e();
+String.prototype.toUpperCase = function(self) 
+  do return _G.string.upper(self) end
+end
+String.prototype.toLowerCase = function(self) 
+  do return _G.string.lower(self) end
+end
+String.prototype.indexOf = function(self,str,startIndex) 
+  if (startIndex == nil) then 
+    startIndex = 1;
+  else
+    startIndex = startIndex + 1;
+  end;
+  if (str == "") then 
+    do return String.indexOfEmpty(self, startIndex - 1) end;
+  end;
+  local r = _G.string.find(self, str, startIndex, true);
+  if ((r ~= nil) and (r > 0)) then 
+    do return r - 1 end;
+  else
+    do return -1 end;
+  end;
+end
+String.prototype.lastIndexOf = function(self,str,startIndex) 
+  local ret = -1;
+  if (startIndex == nil) then 
+    startIndex = #self;
+  end;
+  while (true) do _hx_do_first_1 = false;
+    
+    local p = String.prototype.indexOf(self, str, ret + 1);
+    if (((p == -1) or (p > startIndex)) or (p == ret)) then 
+      break;
+    end;
+    ret = p;
+  end;
+  do return ret end
+end
+String.prototype.split = function(self,delimiter) 
+  local idx = 1;
+  local ret = _hx_tab_array({}, 0);
+  while (idx ~= nil) do _hx_do_first_1 = false;
+    
+    local newidx = 0;
+    if (#delimiter > 0) then 
+      newidx = _G.string.find(self, delimiter, idx, true);
+    else
+      if (idx >= #self) then 
+        newidx = nil;
+      else
+        newidx = idx + 1;
+      end;
+    end;
+    if (newidx ~= nil) then 
+      local match = _G.string.sub(self, idx, newidx - 1);
+      ret:push(match);
+      idx = newidx + #delimiter;
+    else
+      ret:push(_G.string.sub(self, idx, #self));
+      idx = nil;
+    end;
+  end;
+  do return ret end
+end
+String.prototype.toString = function(self) 
+  do return self end
+end
+String.prototype.substring = function(self,startIndex,endIndex) 
+  if (endIndex == nil) then 
+    endIndex = #self;
+  end;
+  if (endIndex < 0) then 
+    endIndex = 0;
+  end;
+  if (startIndex < 0) then 
+    startIndex = 0;
+  end;
+  if (endIndex < startIndex) then 
+    do return _G.string.sub(self, endIndex + 1, startIndex) end;
+  else
+    do return _G.string.sub(self, startIndex + 1, endIndex) end;
+  end;
+end
+String.prototype.charAt = function(self,index) 
+  do return _G.string.sub(self, index + 1, index + 1) end
+end
+String.prototype.charCodeAt = function(self,index) 
+  do return _G.string.byte(self, index + 1) end
+end
+String.prototype.substr = function(self,pos,len) 
+  if ((len == nil) or (len > (pos + #self))) then 
+    len = #self;
+  else
+    if (len < 0) then 
+      len = #self + len;
+    end;
+  end;
+  if (pos < 0) then 
+    pos = #self + pos;
+  end;
+  if (pos < 0) then 
+    pos = 0;
+  end;
+  do return _G.string.sub(self, pos + 1, pos + len) end
+end
+
+String.prototype.__class__ =  String
+
+Std.new = {}
+Std.__name__ = true
+Std.string = function(s) 
+  do return _hx_tostring(s, 0) end;
+end
+Std.int = function(x) 
+  if (not Math.isFinite(x) or Math.isNaN(x)) then 
+    do return 0 end;
+  else
+    do return _hx_bit_clamp(x) end;
+  end;
+end
+Std.parseInt = function(x) 
+  if (x == nil) then 
+    do return nil end;
+  end;
+  local sign, numString = _G.string.match(x, "^%s*([%-+]?)0[xX]([%da-fA-F]*)");
+  if (numString ~= nil) then 
+    if (sign == "-") then 
+      do return -_G.tonumber(numString, 16) end;
+    else
+      do return _G.tonumber(numString, 16) end;
+    end;
+  end;
+  local intMatch = _G.string.match(x, "^%s*[%-+]?%d*");
+  if (intMatch == nil) then 
+    do return nil end;
+  end;
+  do return _G.tonumber(intMatch) end;
+end
+
+__haxe_Exception.new = function(message,previous,native) 
+  local self = _hx_new(__haxe_Exception.prototype)
+  __haxe_Exception.super(self,message,previous,native)
+  return self
+end
+__haxe_Exception.super = function(self,message,previous,native) 
+  self.__skipStack = 0;
+  self.__exceptionMessage = message;
+  self.__previousException = previous;
+  if (native ~= nil) then 
+    self.__nativeException = native;
+    self.__nativeStack = __haxe_NativeStackTrace.exceptionStack();
+  else
+    self.__nativeException = self;
+    self.__nativeStack = __haxe_NativeStackTrace.callStack();
+    self.__skipStack = 1;
+  end;
+end
+__haxe_Exception.__name__ = true
+__haxe_Exception.prototype = _hx_e();
+__haxe_Exception.prototype.toString = function(self) 
+  do return self:get_message() end
+end
+__haxe_Exception.prototype.get_message = function(self) 
+  do return self.__exceptionMessage end
+end
+
+__haxe_Exception.prototype.__class__ =  __haxe_Exception
+
+__haxe_NativeStackTrace.new = {}
+__haxe_NativeStackTrace.__name__ = true
+__haxe_NativeStackTrace.saveStack = function(exception) 
+end
+__haxe_NativeStackTrace.callStack = function() 
+  local _g = debug.traceback();
+  if (_g == nil) then 
+    do return _hx_tab_array({}, 0) end;
+  else
+    local s = _g;
+    do return String.prototype.split(s, "\n"):slice(3) end;
+  end;
+end
+__haxe_NativeStackTrace.exceptionStack = function() 
+  do return _hx_tab_array({}, 0) end;
+end
+
+__haxe_ValueException.new = function(value,previous,native) 
+  local self = _hx_new(__haxe_ValueException.prototype)
+  __haxe_ValueException.super(self,value,previous,native)
+  return self
+end
+__haxe_ValueException.super = function(self,value,previous,native) 
+  __haxe_Exception.super(self,(function() 
+    local _hx_1
+    if (value == nil) then 
+    _hx_1 = "null"; else 
+    _hx_1 = Std.string(value); end
+    return _hx_1
+  end )(),previous,native);
+  self.value = value;
+end
+__haxe_ValueException.__name__ = true
+__haxe_ValueException.prototype = _hx_e();
+
+__haxe_ValueException.prototype.__class__ =  __haxe_ValueException
+__haxe_ValueException.__super__ = __haxe_Exception
+setmetatable(__haxe_ValueException.prototype,{__index=__haxe_Exception.prototype})
+
+__haxe_exceptions_PosException.new = function(message,previous,pos) 
+  local self = _hx_new(__haxe_exceptions_PosException.prototype)
+  __haxe_exceptions_PosException.super(self,message,previous,pos)
+  return self
+end
+__haxe_exceptions_PosException.super = function(self,message,previous,pos) 
+  __haxe_Exception.super(self,message,previous);
+  if (pos == nil) then 
+    self.posInfos = _hx_o({__fields__={fileName=true,lineNumber=true,className=true,methodName=true},fileName="(unknown)",lineNumber=0,className="(unknown)",methodName="(unknown)"});
+  else
+    self.posInfos = pos;
+  end;
+end
+__haxe_exceptions_PosException.__name__ = true
+__haxe_exceptions_PosException.prototype = _hx_e();
+__haxe_exceptions_PosException.prototype.toString = function(self) 
+  do return Std.string(Std.string(Std.string(Std.string(Std.string(Std.string(Std.string(Std.string(Std.string("") .. Std.string(__haxe_Exception.prototype.toString(self))) .. Std.string(" in ")) .. Std.string(self.posInfos.className)) .. Std.string(".")) .. Std.string(self.posInfos.methodName)) .. Std.string(" at ")) .. Std.string(self.posInfos.fileName)) .. Std.string(":")) .. Std.string(self.posInfos.lineNumber) end
+end
+
+__haxe_exceptions_PosException.prototype.__class__ =  __haxe_exceptions_PosException
+__haxe_exceptions_PosException.__super__ = __haxe_Exception
+setmetatable(__haxe_exceptions_PosException.prototype,{__index=__haxe_Exception.prototype})
+
+__haxe_exceptions_NotImplementedException.new = function(message,previous,pos) 
+  local self = _hx_new(__haxe_exceptions_NotImplementedException.prototype)
+  __haxe_exceptions_NotImplementedException.super(self,message,previous,pos)
+  return self
+end
+__haxe_exceptions_NotImplementedException.super = function(self,message,previous,pos) 
+  if (message == nil) then 
+    message = "Not implemented";
+  end;
+  __haxe_exceptions_PosException.super(self,message,previous,pos);
+end
+__haxe_exceptions_NotImplementedException.__name__ = true
+__haxe_exceptions_NotImplementedException.prototype = _hx_e();
+
+__haxe_exceptions_NotImplementedException.prototype.__class__ =  __haxe_exceptions_NotImplementedException
+__haxe_exceptions_NotImplementedException.__super__ = __haxe_exceptions_PosException
+setmetatable(__haxe_exceptions_NotImplementedException.prototype,{__index=__haxe_exceptions_PosException.prototype})
+
+__haxe_iterators_ArrayIterator.new = function(array) 
+  local self = _hx_new(__haxe_iterators_ArrayIterator.prototype)
+  __haxe_iterators_ArrayIterator.super(self,array)
+  return self
+end
+__haxe_iterators_ArrayIterator.super = function(self,array) 
+  self.current = 0;
+  self.array = array;
+end
+__haxe_iterators_ArrayIterator.__name__ = true
+__haxe_iterators_ArrayIterator.prototype = _hx_e();
+__haxe_iterators_ArrayIterator.prototype.hasNext = function(self) 
+  do return self.current < self.array.length end
+end
+__haxe_iterators_ArrayIterator.prototype.next = function(self) 
+  do return self.array[(function() 
+  local _hx_obj = self;
+  local _hx_fld = 'current';
+  local _ = _hx_obj[_hx_fld];
+  _hx_obj[_hx_fld] = _hx_obj[_hx_fld]  + 1;
+   return _;
+   end)()] end
+end
+
+__haxe_iterators_ArrayIterator.prototype.__class__ =  __haxe_iterators_ArrayIterator
+
+__haxe_iterators_ArrayKeyValueIterator.new = function(array) 
+  local self = _hx_new(__haxe_iterators_ArrayKeyValueIterator.prototype)
+  __haxe_iterators_ArrayKeyValueIterator.super(self,array)
+  return self
+end
+__haxe_iterators_ArrayKeyValueIterator.super = function(self,array) 
+  self.array = array;
+end
+__haxe_iterators_ArrayKeyValueIterator.__name__ = true
+__haxe_iterators_ArrayKeyValueIterator.prototype = _hx_e();
+
+__haxe_iterators_ArrayKeyValueIterator.prototype.__class__ =  __haxe_iterators_ArrayKeyValueIterator
+
+__lua_Boot.new = {}
+__lua_Boot.__name__ = true
+__lua_Boot.__instanceof = function(o,cl) 
+  if (cl == nil) then 
+    do return false end;
+  end;
+  local cl1 = cl;
+  if (cl1) == Array then 
+    do return __lua_Boot.isArray(o) end;
+  elseif (cl1) == Bool then 
+    do return _G.type(o) == "boolean" end;
+  elseif (cl1) == Dynamic then 
+    do return o ~= nil end;
+  elseif (cl1) == Float then 
+    do return _G.type(o) == "number" end;
+  elseif (cl1) == Int then 
+    if (_G.type(o) == "number") then 
+      do return _hx_bit_clamp(o) == o end;
+    else
+      do return false end;
+    end;
+  elseif (cl1) == String then 
+    do return _G.type(o) == "string" end;
+  elseif (cl1) == _G.table then 
+    do return _G.type(o) == "table" end;
+  elseif (cl1) == __lua_Thread then 
+    do return _G.type(o) == "thread" end;
+  elseif (cl1) == __lua_UserData then 
+    do return _G.type(o) == "userdata" end;else
+  if (((o ~= nil) and (_G.type(o) == "table")) and (_G.type(cl) == "table")) then 
+    local tmp;
+    if (__lua_Boot.__instanceof(o, Array)) then 
+      tmp = Array;
+    else
+      if (__lua_Boot.__instanceof(o, String)) then 
+        tmp = String;
+      else
+        local cl = o.__class__;
+        tmp = (function() 
+          local _hx_1
+          if (cl ~= nil) then 
+          _hx_1 = cl; else 
+          _hx_1 = nil; end
+          return _hx_1
+        end )();
+      end;
+    end;
+    if (__lua_Boot.extendsOrImplements(tmp, cl)) then 
+      do return true end;
+    end;
+    if ((function() 
+      local _hx_2
+      if (cl == Class) then 
+      _hx_2 = o.__name__ ~= nil; else 
+      _hx_2 = false; end
+      return _hx_2
+    end )()) then 
+      do return true end;
+    end;
+    if ((function() 
+      local _hx_3
+      if (cl == Enum) then 
+      _hx_3 = o.__ename__ ~= nil; else 
+      _hx_3 = false; end
+      return _hx_3
+    end )()) then 
+      do return true end;
+    end;
+    do return o.__enum__ == cl end;
+  else
+    do return false end;
+  end; end;
+end
+__lua_Boot.isArray = function(o) 
+  if (_G.type(o) == "table") then 
+    if ((o.__enum__ == nil) and (_G.getmetatable(o) ~= nil)) then 
+      do return _G.getmetatable(o).__index == Array.prototype end;
+    else
+      do return false end;
+    end;
+  else
+    do return false end;
+  end;
+end
+__lua_Boot.extendsOrImplements = function(cl1,cl2) 
+  if ((cl1 == nil) or (cl2 == nil)) then 
+    do return false end;
+  else
+    if (cl1 == cl2) then 
+      do return true end;
+    else
+      if (cl1.__interfaces__ ~= nil) then 
+        local intf = cl1.__interfaces__;
+        local _g = 1;
+        local _g1 = _hx_table.maxn(intf) + 1;
+        while (_g < _g1) do _hx_do_first_1 = false;
+          
+          _g = _g + 1;
+          local i = _g - 1;
+          if (__lua_Boot.extendsOrImplements(intf[i], cl2)) then 
+            do return true end;
+          end;
+        end;
+      end;
+    end;
+  end;
+  do return __lua_Boot.extendsOrImplements(cl1.__super__, cl2) end;
+end
+
+__lua_UserData.new = {}
+__lua_UserData.__name__ = true
+
+__lua_Thread.new = {}
+__lua_Thread.__name__ = true
+
+__picotron_Window.new = {}
+__picotron_Window.__name__ = true
+__picotron_Window.makeWindow = function(width,height,name) 
+  width = _G.math.floor(width);
+  height = _G.math.floor(height);
+  do return window{title = name, width = width, height = height} end;
+end
+if _hx_bit_raw then
+    _hx_bit_clamp = function(v)
+    if v <= 2147483647 and v >= -2147483648 then
+        if v > 0 then return _G.math.floor(v)
+        else return _G.math.ceil(v)
+        end
+    end
+    if v > 2251798999999999 then v = v*2 end;
+    if (v ~= v or math.abs(v) == _G.math.huge) then return nil end
+    return _hx_bit_raw.band(v, 2147483647 ) - math.abs(_hx_bit_raw.band(v, 2147483648))
+    end
+else
+    _hx_bit_clamp = function(v)
+        if v < -2147483648 then
+            return -2147483648
+        elseif v > 2147483647 then
+            return 2147483647
+        elseif v > 0 then
+            return _G.math.floor(v)
+        else
+            return _G.math.ceil(v)
+        end
+    end
+end;
+
+
+
+_hx_array_mt.__index = Array.prototype
+
+if package.loaded.luv then
+  _hx_luv = _G.require("luv");
+else
+  _hx_luv = {
+    run=function(mode) return false end,
+    loop_alive=function() return false end
+  }
+end
+local _hx_static_init = function()
+  
+  String.__name__ = true;
+  Array.__name__ = true;Ball.ballHeight = 10;
+  
+  Ball.ballWidth = 10;
+  
+  Ball.ballSpeed = 7;
+  
+  Ball.maxYVel = 7;
+  
+  GameInfo.windowWidth = 326;
+  
+  GameInfo.windowHeight = 200;
+  
+  Player.playerHeight = 32;
+  
+  Player.playerWidth = 10;
+  
+  Player.playerSpeed = 8;
+  
+  Player.cpuPlayerSpeed = 6;
+  
+  
+end
+
+_hx_bind = function(o,m)
+  if m == nil then return nil end;
+  local f;
+  if o._hx__closures == nil then
+    _G.rawset(o, '_hx__closures', {});
+  else
+    f = o._hx__closures[m];
+  end
+  if (f == nil) then
+    f = function(...) return m(o, ...) end;
+    o._hx__closures[m] = f;
+  end
+  return f;
+end
+
+_hx_table = {}
+_hx_table.pack = _G.table.pack or function(...)
+    return {...}
+end
+_hx_table.unpack = _G.table.unpack or _G.unpack
+_hx_table.maxn = _G.table.maxn or function(t)
+  local maxn=0;
+  for i in pairs(t) do
+    maxn=type(i)=='number'and i>maxn and i or maxn
+  end
+  return maxn
+end;
+
+function _hx_handle_error(obj)
+  local message = tostring(obj)
+  if _G.debug and _G.debug.traceback then
+    -- level 2 to skip _hx_handle_error
+    message = _G.debug.traceback(message, 2)
+  end
+  return setmetatable({}, { __tostring = function() return message end })
+end
+
+_hx_static_init();
+local success, err = _G.xpcall(function() 
+  Main.main();
+  _hx_luv.run();
+end, _hx_handle_error)
+if not success then _G.error(err) end
+
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTAzLTIzIDIzOjQ2OjEwIixtb2RpZmllZD0iMjAyNC0w
+My0yNCAwNzowNTozNSIscmV2aXNpb249NzhdXWx6NABzAAAACQUAAP8Re3tibXA9dXNlcmRhdGEo
+ImkxNiIsMjMsMTMsIjAwMTIEABATMwQAHzIEABkPXAD-----QfEMIiksaGlkZGVuPWZhbHNlLHBh
+bl94PS0xOC41DADieT0tOSx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTAzLTIzIDIzOjQ2OjEwIixzdG9yZWQ9IjIwMjQtMDMt
+MjMgMjM6NDY6MTAiXV1sejQABAAAAAMAAAAwbmls
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTAzLTIzIDIzOjQ2OjEwIixtb2RpZmllZD0iMjAyNC0w
+My0yNCAwNzowNTozNSIscmV2aXNpb249NjRdXWx6NAB3AQAAIwcAAPAncHh1AAMoAAADAAQPQBAC
+DgABoAEgAqAOAA8QAA3wygECAwQFBgcAD-_QCAkKCw8MDw0PDg8PEADwAA0PEQ8SDxMPFA8VDxYP
+FxMA8QEPGA8ZDxoPGw8cDx0PHg8fFADxACAPIQ8iDyMPJA8lDyYPJxQA8QAoDykPKg8rDywPLQ8u
+Dy8UAPEAMA8xDzIPMw80DzUPNg83FAD-BTgPOQ86DzsPPA89Dz4PPwAP--D-AQDr-ydaARAGDyAQ
+ASABIAHwAAIQAgwQASAPISABMA9A8MMPKA--8MYP_AoP-w_AD-cPDQHwCQEQBgwwAP85H-8BANzw
+EPgPQGAPPQ86DzkPMw8tDyMPHQ8R--8ocf4ofP4o8HAeAPAGRg9JD0oPSQ9CDzsPLv4pYf4pbP4p
+GwDxAgAFQA8mDyoPMA81DzoPPA8_HQAmbyMeAPEDNA8wDy0PKAwPHv4qUf4qXP4qGgB-DUD_sPBw
+AwgA-8Qf-wEAl1D-----Hw==
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTAzLTIzIDIzOjQ2OjEwIixzdG9yZWQ9IjIwMjQtMDMt
+MjMgMjM6NDY6MTAiXV1sejQABAAAAAMAAAAwbmls
+:: .info.pod
+b64$LS1bW3BvZCxhdXRob3I9IlVtbmdhbmUgV2FtaSIsaWNvbj11c2VyZGF0YSgidTgiLDE2LDE2
+LCIwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEw
+MTAxMDEwMTAxMDEwMTA3MDcwNzA3MDcwNzA3MDcwNzA3MDcwNzBkMGQwMTAxMDcwNzA3MDcwNzA3
+MDcwNzA3MDcwNzA3MGQwZDAxMDEwNzA3MDEwMTAxMDEwMTAxMDEwMTA3MDcwZDBkMDEwMTA3MDcw
+MTAxMDEwMTAxMDEwMTAxMDcwNzBkMGQwMTAxMDcwNzAxMDEwMDAwMDAwMDBkMGQwNzA3MGQwZDAx
+MDEwNzA3MDEwMTAwMDAwMDAwMGQwZDA3MDcwZDBkMDEwMTA3MDcwMTAxMDAwMDAwMDAwZDBkMDcw
+NzBkMGQwMTAxMDcwNzAxMDEwMDAwMDAwMDBkMGQwNzA3MGQwZDAxMDEwNzA3MDEwMTBkMGQwZDBk
+MGQwZDA3MDcwZDBkMDEwMTA3MDcwMTAxMGQwZDBkMGQwZDBkMDcwNzBkMGQwMTAxMDcwNzA3MDcw
+NzA3MDcwNzA3MDcwNzA3MGQwZDAxMDEwNzA3MDcwNzA3MDcwNzA3MDcwNzA3MDcwZDBkMDEwMTBk
+MGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwMTAxMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQw
+ZCIpLG5vdGVzPSJNYWRlIHdpdGggSFgtUGljb3Ryb24hIixzdG9yZWQ9IjIwMjQtMDMtMjQgMDc6
+MDU6MzUiLHRpdGxlPSJQaWNvUG9uZyEiLHZlcnNpb249IjEiLHdvcmtzcGFjZXM9e3tsb2NhdGlv
+bj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdv
+cmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9
+fV1dbHo0AAQAAAADAAAAMG5pbA==
+:: [eoc]
