@@ -1,0 +1,4 @@
+-main Main
+--class-path src
+--library hx-picotron
+--lua out/main.lua
