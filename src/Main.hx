@@ -35,7 +35,6 @@ class Main {
 		player2 = new Player(GameInfo.windowWidth - Player.playerWidth, 0, false, 2);
 		player2.resetYPos();
 		ball.resetPos();
-		// makeEverythingMovable();
 	}
 
 	function makeEverythingMovable() {
@@ -52,12 +51,16 @@ class Main {
 
 	function Draw() {
 		Picotron.cls(0);
-		/*for (y in 0...(Std.int(GameInfo.windowHeight / 8))) {
-			for (x in 0...(Std.int(GameInfo.windowWidth / 8))) {
-				Picotron.spr(18, x * 8, y * 8);
+		for (y in 0...(Std.int(GameInfo.windowHeight / 16))) {
+			for (x in 0...(Std.int(GameInfo.windowWidth / 16))) {
+				if (x == Std.int((GameInfo.windowWidth / 16) / 2)) {
+					Picotron.spr(19, x * 16, y * 16);
+				} else {
+					Picotron.spr(18, x * 16, y * 16);
+				}
 			}
-		}*/
-		Picotron.map(0, 0);
+		}
+		// Picotron.map(1, 1);
 		if (player1 != null) {
 			player1.draw();
 		}

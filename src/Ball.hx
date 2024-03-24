@@ -25,8 +25,8 @@ class Ball {
 		x = (GameInfo.windowWidth / 2) - (Ball.ballWidth / 2);
 		y = (GameInfo.windowHeight / 2) - (Ball.ballHeight / 2);
 		// shrug, dunno why i need these offsets but meh.
-		x -= 3;
-		y -= 4;
+		// x -= 3;
+		// y -= 4;
 	}
 
 	public function draw() {

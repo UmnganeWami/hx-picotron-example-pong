@@ -1,6 +1,6 @@
 package;
 
 class GameInfo {
-	public static var windowWidth:Int = 326;
-	public static var windowHeight:Int = 200;
+	public static var windowWidth:Int = 336;
+	public static var windowHeight:Int = 192;
 }

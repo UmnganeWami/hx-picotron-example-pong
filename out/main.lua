@@ -652,10 +652,6 @@ Ball.prototype = _hx_e();
 Ball.prototype.resetPos = function(self) 
   self.x = (GameInfo.windowWidth / 2) - (Ball.ballWidth / 2);
   self.y = (GameInfo.windowHeight / 2) - (Ball.ballHeight / 2);
-  local tmp = self;
-  tmp.x = tmp.x - 3;
-  local tmp = self;
-  tmp.y = tmp.y - 4;
 end
 Ball.prototype.draw = function(self) 
   spr(2, self.x, self.y);
@@ -780,7 +776,25 @@ Main.prototype.makeEverythingImmovable = function(self)
 end
 Main.prototype.Draw = function(self) 
   cls(0);
-  map(0, 0);
+  local _g = 0;
+  local _g1 = Std.int(GameInfo.windowHeight / 16);
+  while (_g < _g1) do _hx_do_first_1 = false;
+    
+    _g = _g + 1;
+    local y = _g - 1;
+    local _g = 0;
+    local _g1 = Std.int(GameInfo.windowWidth / 16);
+    while (_g < _g1) do _hx_do_first_2 = false;
+      
+      _g = _g + 1;
+      local x = _g - 1;
+      if (x == Std.int((GameInfo.windowWidth / 16) / 2)) then 
+        spr(19, x * 16, y * 16);
+      else
+        spr(18, x * 16, y * 16);
+      end;
+    end;
+  end;
   if (Main.player1 ~= nil) then 
     Main.player1:draw();
   end;
@@ -1511,9 +1525,9 @@ local _hx_static_init = function()
   
   Ball.maxYVel = 7;
   
-  GameInfo.windowWidth = 326;
+  GameInfo.windowWidth = 336;
   
-  GameInfo.windowHeight = 200;
+  GameInfo.windowHeight = 192;
   
   Player.playerHeight = 32;
   
