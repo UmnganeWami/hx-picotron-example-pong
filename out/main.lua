@@ -267,12 +267,14 @@ package = {
 }
 local Array = _hx_e()
 local Ball = _hx_e()
+local Dificulty = _hx_e()
 local GameInfo = _hx_e()
 local Main = _hx_e()
 local Math = _hx_e()
 local Player = _hx_e()
 local String = _hx_e()
 local Std = _hx_e()
+local Type = _hx_e()
 __haxe_Exception = _hx_e()
 __haxe_NativeStackTrace = _hx_e()
 __haxe_ValueException = _hx_e()
@@ -648,6 +650,14 @@ Ball.super = function(self,x,y,xVel,yVel)
   self.yVel = yVel;
 end
 Ball.__name__ = true
+Ball.getBallSpeed = function() 
+  local tmp = Main.dificulty[1];
+  if (tmp) == 0 then 
+    do return Ball.ballSpeedEasy end;
+  elseif (tmp) == 1 then 
+    do return Ball.ballSpeedMedium end;else
+  do return Ball.ballSpeedHard end; end;
+end
 Ball.prototype = _hx_e();
 Ball.prototype.resetPos = function(self) 
   self.x = (GameInfo.windowWidth / 2) - (Ball.ballWidth / 2);
@@ -730,6 +740,15 @@ Ball.prototype.update = function(self)
 end
 
 Ball.prototype.__class__ =  Ball
+_hxClasses["Dificulty"] = { __ename__ = true, __constructs__ = _hx_tab_array({[0]="EASY","MEDIUM","HARD"},3)}
+Dificulty = _hxClasses["Dificulty"];
+Dificulty.EASY = _hx_tab_array({[0]="EASY",0,__enum__ = Dificulty},2)
+
+Dificulty.MEDIUM = _hx_tab_array({[0]="MEDIUM",1,__enum__ = Dificulty},2)
+
+Dificulty.HARD = _hx_tab_array({[0]="HARD",2,__enum__ = Dificulty},2)
+
+Dificulty.__empty_constructs__ = _hx_tab_array({[0] = Dificulty.EASY,Dificulty.MEDIUM,Dificulty.HARD}, 3)
 
 GameInfo.new = {}
 GameInfo.__name__ = true
@@ -756,6 +775,18 @@ Main.getPlayers = function()
   do return _hx_tab_array({[0]=Main.player1, Main.player2}, 2) end;
 end
 Main.prototype = _hx_e();
+Main.prototype.getNextDificulty = function(self,off) 
+  local difs = Type.allEnums(Dificulty);
+  local offedOff = Main.dificulty[1] + off;
+  if (offedOff >= difs.length) then 
+    offedOff = 0;
+  else
+    if (offedOff < 0) then 
+      offedOff = difs.length - 1;
+    end;
+  end;
+  do return difs[offedOff] end
+end
 Main.prototype.Init = function(self) 
   Main.ball = self:makeBall(false);
   Main.player1 = Player.new(0, 0, true, 1);
@@ -826,10 +857,30 @@ Main.prototype.Draw = function(self)
       end;
       print(thing, x, y, 7);
     end;
+    local diff = self:getNextDificulty(0)[0];
+    rectfill(0, GameInfo.windowHeight - 11, #diff * 6, GameInfo.windowHeight, 0);
+    local thing = self:getNextDificulty(0);
+    local x = 2;
+    local y = GameInfo.windowHeight - 9;
+    local col = 7;
+    if (col == nil) then 
+      col = 7;
+    end;
+    if (y == nil) then 
+      y = 0;
+    end;
+    if (x == nil) then 
+      x = 0;
+    end;
+    if (not __lua_Boot.__instanceof(thing, String)) then 
+      thing = Std.string(thing);
+    end;
+    print(thing, x, y, col);
   end;
 end
 Main.prototype.drawHitsCounter = function(self,x,y,num) 
   local numSplit = String.prototype.split(Std.string(num), "");
+  rectfill(x, y, x + (numSplit.length * 16), y + 16, 0);
   local _g = 0;
   local _g1 = numSplit.length;
   while (_g < _g1) do _hx_do_first_1 = false;
@@ -838,7 +889,6 @@ Main.prototype.drawHitsCounter = function(self,x,y,num)
     local i = _g - 1;
     local num = numSplit[i];
     local counterX = x + (16 * i);
-    rectfill(x, y, x + ((i + 1) * 16), 16, 0);
     spr(8 + Std.parseInt(num), counterX, y);
   end;
 end
@@ -846,8 +896,8 @@ Main.prototype.makeBall = function(self,playerGoaled)
   do return Ball.new(0, 0, (function() 
     local _hx_1
     if (playerGoaled) then 
-    _hx_1 = Ball.ballSpeed; else 
-    _hx_1 = -Ball.ballSpeed; end
+    _hx_1 = Ball.getBallSpeed(); else 
+    _hx_1 = -Ball.getBallSpeed(); end
     return _hx_1
   end )() * (1 + rnd(.05)), 0) end
 end
@@ -881,6 +931,14 @@ Main.prototype.Update = function(self)
       thing = Std.string(thing);
     end;
     print(thing, x, y, col);
+  end;
+  if (self.isFlashingToPressButton) then 
+    if (keyp("up")) then 
+      Main.dificulty = self:getNextDificulty(-1);
+    end;
+    if (keyp("down")) then 
+      Main.dificulty = self:getNextDificulty(1);
+    end;
   end;
   if (Main.ball:isOutOfBounds() and Main.ball.canMove) then 
     self:makeEverythingImmovable();
@@ -939,6 +997,23 @@ Player.super = function(self,x,y,isPlayer,player)
 end
 Player.__name__ = true
 Player.prototype = _hx_e();
+Player.prototype.getPlayerSpeed = function(self) 
+  if (self.isPlayer) then 
+    local tmp = Main.dificulty[1];
+    if (tmp) == 0 then 
+      do return Player.EasyCpuPlayerSpeed end;
+    elseif (tmp) == 1 then 
+      do return Player.MediumPlayerSpeed end;else
+    do return Player.HardPlayerSpeed end; end;
+  else
+    local tmp = Main.dificulty[1];
+    if (tmp) == 0 then 
+      do return Player.EasyCpuPlayerSpeed end;
+    elseif (tmp) == 1 then 
+      do return Player.MediumCpuPlayerSpeed end;else
+    do return Player.HardCpuPlayerSpeed end; end;
+  end;
+end
 Player.prototype.draw = function(self) 
   spr(1, self.x, self.y);
 end
@@ -963,12 +1038,12 @@ Player.prototype.update = function(self)
       local isUpPressed = key("w");
       local isDownPressed = key("s");
       if (isUpPressed) then 
-        self:tryMoveOnY(-Player.playerSpeed);
-        self.curYSpeed = -Player.playerSpeed;
+        self:tryMoveOnY(-self:getPlayerSpeed());
+        self.curYSpeed = -self:getPlayerSpeed();
       end;
       if (isDownPressed) then 
-        self:tryMoveOnY(Player.playerSpeed);
-        self.curYSpeed = Player.playerSpeed;
+        self:tryMoveOnY(self:getPlayerSpeed());
+        self.curYSpeed = self:getPlayerSpeed();
       end;
       if (not isUpPressed and not isDownPressed) then 
         self.curYSpeed = 0;
@@ -986,8 +1061,8 @@ Player.prototype.update = function(self)
         local toMove = (function() 
           local _hx_2
           if (dif < 0) then 
-          _hx_2 = Player.cpuPlayerSpeed; else 
-          _hx_2 = -Player.cpuPlayerSpeed; end
+          _hx_2 = self:getPlayerSpeed(); else 
+          _hx_2 = -self:getPlayerSpeed(); end
           return _hx_2
         end )();
         self:tryMoveOnY(toMove);
@@ -1205,6 +1280,21 @@ Std.parseInt = function(x)
     do return nil end;
   end;
   do return _G.tonumber(intMatch) end;
+end
+
+Type.new = {}
+Type.__name__ = true
+Type.allEnums = function(e) 
+  local _g = _hx_tab_array({}, 0);
+  local _g1 = 0;
+  local _g2 = e.__empty_constructs__;
+  while (_g1 < _g2.length) do _hx_do_first_1 = false;
+    
+    local i = _g2[_g1];
+    _g1 = _g1 + 1;
+    _g:push(i);
+  end;
+  do return _g end;
 end
 
 __haxe_Exception.new = function(message,previous,native) 
@@ -1521,21 +1611,35 @@ local _hx_static_init = function()
   
   Ball.ballWidth = 10;
   
-  Ball.ballSpeed = 7;
-  
   Ball.maxYVel = 7;
+  
+  Ball.ballSpeedEasy = 6;
+  
+  Ball.ballSpeedMedium = 6.5;
+  
+  Ball.ballSpeedHard = 7;
   
   GameInfo.windowWidth = 336;
   
   GameInfo.windowHeight = 192;
   
+  Main.dificulty = Dificulty.EASY;
+  
   Player.playerHeight = 32;
   
   Player.playerWidth = 10;
   
-  Player.playerSpeed = 8;
+  Player.EasyPlayerSpeed = 7;
   
-  Player.cpuPlayerSpeed = 6;
+  Player.MediumPlayerSpeed = 7.5;
+  
+  Player.HardPlayerSpeed = 8;
+  
+  Player.EasyCpuPlayerSpeed = 6;
+  
+  Player.MediumCpuPlayerSpeed = 5.75;
+  
+  Player.HardCpuPlayerSpeed = 5.50;
   
   
 end

@@ -12,8 +12,28 @@ class Player {
 
 	public static final playerHeight:Float = 32;
 	public static final playerWidth:Float = 10;
-	public static final playerSpeed:Float = 8;
-	public static final cpuPlayerSpeed:Float = 6;
+	public static final EasyPlayerSpeed:Float = 7;
+	public static final MediumPlayerSpeed:Float = 7.5;
+	public static final HardPlayerSpeed:Float = 8;
+	public static final EasyCpuPlayerSpeed:Float = 6;
+	public static final MediumCpuPlayerSpeed:Float = 5.75;
+	public static final HardCpuPlayerSpeed:Float = 5.50;
+
+	public function getPlayerSpeed() {
+		return if (isPlayer) {
+			switch (Main.dificulty) {
+				case EASY: EasyCpuPlayerSpeed;
+				case MEDIUM: MediumPlayerSpeed;
+				case _: HardPlayerSpeed;
+			}
+		} else {
+			switch (Main.dificulty) {
+				case EASY: EasyCpuPlayerSpeed;
+				case MEDIUM: MediumCpuPlayerSpeed;
+				case _: HardCpuPlayerSpeed;
+			}
+		}
+	}
 
 	public function new(x:Float, y:Float, isPlayer:Bool, player:Int) {
 		this.x = x;
@@ -48,12 +68,12 @@ class Player {
 				var isUpPressed = Picotron.key("w");
 				var isDownPressed = Picotron.key("s");
 				if (isUpPressed) {
-					tryMoveOnY(-playerSpeed);
-					curYSpeed = -playerSpeed;
+					tryMoveOnY(-getPlayerSpeed());
+					curYSpeed = -getPlayerSpeed();
 				}
 				if (isDownPressed) {
-					tryMoveOnY(playerSpeed);
-					curYSpeed = playerSpeed;
+					tryMoveOnY(getPlayerSpeed());
+					curYSpeed = getPlayerSpeed();
 				}
 
 				if (!isUpPressed && !isDownPressed) {
@@ -68,9 +88,9 @@ class Player {
 				var difNeeded = Player.playerHeight / 5;
 				if (dif > difNeeded || dif < -difNeeded) {
 					var toMove:Float = if (dif < 0) {
-						Player.cpuPlayerSpeed;
+						getPlayerSpeed();
 					} else {
-						-Player.cpuPlayerSpeed;
+						-getPlayerSpeed();
 					}
 					tryMoveOnY(toMove);
 				}

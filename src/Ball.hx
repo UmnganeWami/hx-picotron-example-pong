@@ -11,14 +11,27 @@ class Ball {
 
 	public static final ballHeight = 10;
 	public static final ballWidth = 10;
-	public static final ballSpeed = 7;
 	public static final maxYVel = 7;
+
+	static final ballSpeedEasy = 6;
+	static final ballSpeedMedium = 6.5;
+	static final ballSpeedHard = 7;
 
 	public function new(x:Float, y:Float, xVel:Float, yVel:Float) {
 		this.x = x;
 		this.y = y;
 		this.xVel = xVel;
 		this.yVel = yVel;
+	}
+
+	public static function getBallSpeed() {
+		return switch (Main.dificulty) {
+			case EASY:
+				ballSpeedEasy;
+			case MEDIUM:
+				ballSpeedMedium;
+			case _: ballSpeedHard;
+		}
 	}
 
 	public function resetPos() {

@@ -12,6 +12,7 @@ class Main {
 	public static var player1:Player;
 	public static var player2:Player;
 	public static var ball:Ball;
+	public static var dificulty:Dificulty = EASY;
 
 	var plr1Hits:Int = 0;
 	var plr2Hits:Int = 0;
@@ -19,6 +20,17 @@ class Main {
 
 	public static function getPlayers() {
 		return [player1, player2];
+	}
+
+	public function getNextDificulty(off:Int):Dificulty {
+		var difs = Dificulty.createAll();
+		var offedOff = dificulty.getIndex() + off;
+		if (offedOff >= difs.length) {
+			offedOff = 0;
+		} else if (offedOff < 0) {
+			offedOff = difs.length - 1;
+		}
+		return difs[offedOff];
 	}
 
 	public function new() {
@@ -81,21 +93,25 @@ class Main {
 				Picotron.rectfill(textX - 2, 0, textX + toPlayTextLength + 2, 8 + 1, 0);
 				Picotron.print(toPlayText, textX, 1);
 			}
+			var diff = getNextDificulty(0).getName();
+			Picotron.rectfill(0, GameInfo.windowHeight - (8 + 3), diff.length * 6, GameInfo.windowHeight, 0);
+			Picotron.print(getNextDificulty(0), 2, GameInfo.windowHeight - (8 + 1), 7);
 		}
+		// trace(getNextDificulty(0));
 	}
 
 	function drawHitsCounter(x:Int, y:Int, num:Int) {
 		var numSplit:Array<String> = Std.string(num).split("");
+		Picotron.rectfill(x, y, x + (numSplit.length * 16), y + 16, 0);
 		for (i in 0...numSplit.length) {
 			var num = numSplit[i];
 			var counterX = x + (16 * i);
-			Picotron.rectfill(x, y, x + ((i + 1) * 16), 16, 0);
 			Picotron.spr(8 + Std.parseInt(num), counterX, y);
 		}
 	}
 
 	function makeBall(playerGoaled:Bool) {
-		return new Ball(0, 0, (playerGoaled ? Ball.ballSpeed : -Ball.ballSpeed) * (1 + Picotron.rnd(.05)), 0);
+		return new Ball(0, 0, (playerGoaled ? Ball.getBallSpeed() : -Ball.getBallSpeed()) * (1 + Picotron.rnd(.05)), 0);
 	}
 
 	function Update() {
@@ -112,6 +128,14 @@ class Main {
 		if (ball != null) {
 			ball.update();
 			Picotron.print(GameInfo.windowWidth - (ball.x + Ball.ballWidth), 0, 0, 7);
+		}
+		if (isFlashingToPressButton) {
+			if (Picotron.keyp("up")) {
+				dificulty = getNextDificulty(-1);
+			}
+			if (Picotron.keyp("down")) {
+				dificulty = getNextDificulty(1);
+			}
 		}
 		if (ball.isOutOfBounds() && ball.canMove) {
 			makeEverythingImmovable();
